@@ -1,0 +1,116 @@
+header {
+	display: flex;
+	align-items: center;
+	height: 100wh;
+
+	form {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: space-between;
+		padding: 20px;
+		input:not([type="submit"]) {
+			width: 100%;
+			border: none;
+			border-bottom: 1px solid #000;
+		}
+		.w50 {
+			width: calc(50% - 20px);
+		}
+		input[type="submit"] {
+			background-color: $vert;
+			border: none;
+			box-shadow: none;
+			padding: 20px;
+			color: white;
+			font-family: "canaro";
+			font-weight: bold;
+		}
+	}
+}
+
+.logo {
+	width: 15%;
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.menu {
+	width: 80%;
+	display: flex;
+	font-size: 14px;
+	padding: 30px 0;
+	ul {
+		display: flex;
+		justify-content: space-evenly;
+		list-style-type: none;
+		width: 100%;
+		text-transform: uppercase;
+		li {
+			a {
+				display: block;
+				color: #263c59;
+				text-decoration: none;
+				width: 100%;
+				height: 100%;
+				font-size: 16px;
+				font-weight: 600;
+			}
+		}
+	}
+}
+
+.menucontact {
+	width: 70px;
+	background-color: white;
+	position: fixed;
+	z-index: 1;
+	right: 0;
+	top: 0;
+	height: 100%;
+	ul {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		list-style-type: none;
+		box-shadow: 2px 2px 5px black;
+		li {
+			width: 100%;
+			height: 50%;
+			writing-mode: vertical-rl;
+			text-orientation: mixed;
+			transform: rotate(180deg);
+
+			&:last-child {
+				text-align: right;
+				border-bottom: 1px solid #000;
+			}
+			a {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-decoration: none;
+				width: 100%;
+				height: 100%;
+				text-align: center;
+				text-transform: uppercase;
+				font-size: 16px;
+				font-weight: 400;
+				color: #263c59;
+			}
+		}
+	}
+}
+
+.projet {
+	display: none;
+	width: calc(100% - 70px);
+	height: 100%;
+	background-color: white;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}

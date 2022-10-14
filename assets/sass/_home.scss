@@ -1,0 +1,221 @@
+.home {
+	.bg-home {
+		background-image: url("../img/home.png");
+		background-size: cover;
+		min-height: calc(100vh - 75px);
+		color: white;
+
+		.bg-black {
+			background-color: rgba(0, 0, 0, 0.495);
+			height: 100%;
+			min-height: calc(100vh - 75px);
+			display: flex;
+			align-items: center;
+			& > div {
+				display: flex;
+
+				h1 {
+					text-transform: uppercase;
+					padding: 50px 0;
+					font-weight: bold;
+					letter-spacing: 5px;
+					&::first-line {
+						font-size: 70px;
+					}
+				}
+				h2 {
+					color: white;
+					text-align: left;
+					letter-spacing: 5px;
+					&:first-of-type {
+						padding-top: 0;
+					}
+				}
+			}
+		}
+	}
+
+	.activites {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+		padding: 30px 0;
+
+		/***** Bloc-secteur d'activités *****/
+		.bloc-secteur {
+			width: calc((100% / 3) - 20px);
+			aspect-ratio: 16 / 9;
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+			padding: 18px;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			overflow: hidden;
+			border-radius: 15px;
+			h3 {
+				font-weight: 600;
+				font-size: 16px;
+				background-color: #fff;
+				color: $bleu;
+			}
+
+			&:hover {
+				.bloc-contenu {
+					top: 0;
+				}
+			}
+
+			.btn {
+				display: block;
+				width: 100%;
+				text-align: center;
+
+				&:hover {
+					transform: scale(1.09, 1.09);
+				}
+			}
+
+			.bloc-contenu {
+				background-color: rgba(255, 255, 255, 0.85);
+				position: absolute;
+				padding: 18px;
+				top: 100%;
+				left: 0;
+				display: flex;
+				width: 100%;
+				height: 100%;
+				flex-direction: column;
+				justify-content: flex-end;
+				align-items: center;
+				transition: $transition;
+				text-align: center;
+				color: $bleu;
+			}
+		}
+
+		.agroalimentaire {
+			background-image: url("../img/Agroalimentaire.png");
+		}
+
+		.mineral {
+			background-image: url("../img/minerale.png");
+		}
+		/**** Attention manque visuel recyclage ****/
+		.recyclage {
+			background-image: url("../img/Agroalimentaire.png");
+		}
+		/**** Attention manque visuel recyclage ****/
+		.caoutchouc {
+			background-image: url("../img/caoutchouc-plastique.png");
+		}
+
+		.bois {
+			background-image: url("../img/bois.png");
+		}
+
+		.mettalurgie {
+			background-image: url("../img/metalurgie.png");
+		}
+
+		.papier {
+			background-image: url("../img/papier-textile.png");
+		}
+
+		.chimie {
+			background-image: url("../img/chimie-pharma.png");
+		}
+
+		.auto {
+			background-image: url("../img/Auto-aero.png");
+		}
+	}
+
+	.atex {
+		background-color: $bleu;
+		color: white;
+		padding: 60px 0;
+		.container {
+			display: flex;
+			justify-content: space-between;
+			h2 {
+				color: inherit;
+				text-align: left;
+				padding-top: 0;
+			}
+			p {
+				margin-bottom: 15px;
+			}
+			div:first-of-type {
+				width: 60%;
+			}
+			div:last-of-type {
+				width: 30%;
+			}
+			img {
+				border-radius: 15px;
+			}
+		}
+	}
+
+	.savoirFaire {
+		padding: 60px 0;
+		.bloc-savoirfaire {
+			display: flex;
+			flex-wrap: wrap;
+			align-content: space-evenly;
+			justify-content: center;
+			aspect-ratio: 1 / 1;
+			padding: 18px;
+			background: $bleu;
+			border-radius: 15px;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 60px;
+			div {
+				padding: 30px;
+				width: calc((100% / 3) - 40px);
+			}
+			h2 {
+				width: 100%;
+			}
+			h3 {
+				font-size: 18px;
+				color: white;
+			}
+			p {
+				font-size: 14px;
+				color: white;
+				text-align: center;
+			}
+			.btn {
+				display: block;
+				width: 100%;
+				text-align: center;
+
+				&:hover {
+					transform: scale(1.09, 1.09);
+				}
+			}
+		}
+	}
+
+	.produits {
+		display: flex;
+		background: $bleu;
+		padding: 60px 0;
+		h2 {
+			color: white;
+			padding: 30px 0;
+		}
+	}
+
+	.realisation {
+		display: flex;
+		padding: 60px 0;
+	}
+}

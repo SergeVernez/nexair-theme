@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "montserrat";
+	width: calc(100% - 70px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "canaro";
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: $bleu;
+	text-align: left;
+}
+h3 {
+	font-weight: 600;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: $vert;
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+	strong {
+		font-weight: 600;
+	}
+}
