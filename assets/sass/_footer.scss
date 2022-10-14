@@ -1,10 +1,38 @@
 .bg-footer {
-	display: flex;
-	align-items: center;
+	padding: 50px 0;
 	background: black;
 
+	ul {
+		display: flex;
+		justify-content: space-evenly;
+		list-style-type: none;
+		width: 100%;
+		text-transform: uppercase;
+		li {
+			a {
+				display: block;
+				color: white;
+				text-decoration: none;
+				width: 100%;
+				font-size: 16px;
+				font-weight: 600;
+			}
+		}
+	}
+
 	img {
-		max-width: 200px;
-		height: auto;
+		display: block;
+		margin: auto;
+		max-width: 250px;
+	}
+
+	hr {
+		border-color: $vert;
+	}
+	.ligne {
+		display: flex;
+		div {
+			width: 50%;
+		}
 	}
 }

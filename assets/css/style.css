@@ -424,11 +424,35 @@ header form input[type=submit] {
 }
 
 .bg-footer {
-  display: flex;
-  align-items: center;
+  padding: 50px 0;
   background: black;
 }
+.bg-footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  width: 100%;
+  text-transform: uppercase;
+}
+.bg-footer ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
 .bg-footer img {
-  max-width: 200px;
-  height: auto;
+  display: block;
+  margin: auto;
+  max-width: 250px;
+}
+.bg-footer hr {
+  border-color: #8bb53c;
+}
+.bg-footer .ligne {
+  display: flex;
+}
+.bg-footer .ligne div {
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */
