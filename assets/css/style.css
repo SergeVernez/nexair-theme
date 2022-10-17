@@ -308,7 +308,6 @@ header form input[type=submit] {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  padding: 30px 0;
   /***** Bloc-secteur d'activités *****/
   /**** Attention manque visuel recyclage ****/
   /**** Attention manque visuel recyclage ****/
