@@ -5,6 +5,23 @@
 		min-height: calc(100vh - 75px);
 		color: white;
 
+		/******* effet parallax****/
+		background-position: right left;
+		animation: zoom 50s linear infinite;
+		background-attachment: fixed;
+
+		@keyframes zoom {
+			0% {
+				background-size: 100%;
+			}
+			50% {
+				background-size: 110%;
+			}
+			100% {
+				background-size: 100%;
+			}
+		}
+
 		.bg-black {
 			background-color: rgba(0, 0, 0, 0.495);
 			height: 100%;

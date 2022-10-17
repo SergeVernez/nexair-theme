@@ -229,6 +229,33 @@ header form input[type=submit] {
   background-size: cover;
   min-height: calc(100vh - 75px);
   color: white;
+  /******* effet parallax****/
+  background-position: right left;
+  -webkit-animation: zoom 50s linear infinite;
+          animation: zoom 50s linear infinite;
+  background-attachment: fixed;
+}
+@-webkit-keyframes zoom {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 110%;
+  }
+  100% {
+    background-size: 100%;
+  }
+}
+@keyframes zoom {
+  0% {
+    background-size: 100%;
+  }
+  50% {
+    background-size: 110%;
+  }
+  100% {
+    background-size: 100%;
+  }
 }
 .home .bg-home .bg-black {
   background-color: rgba(0, 0, 0, 0.495);
