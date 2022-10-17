@@ -10,7 +10,7 @@
 }
 
 .w50 {
-  width: 50%;
+  width: 55%;
 }
 
 .btn {
@@ -225,36 +225,44 @@ header form input[type=submit] {
 }
 
 .home .bg-home {
-  background-image: url("../img/home.png");
-  background-size: cover;
   min-height: calc(100vh - 75px);
   color: white;
-  /******* effet parallax****/
-  background-position: right left;
-  -webkit-animation: zoom 50s linear infinite;
-          animation: zoom 50s linear infinite;
-  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  /* effet parallax */
+}
+.home .bg-home img {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: right center;
+     object-position: right center;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-animation: zoom 55s linear infinite;
+          animation: zoom 55s linear infinite;
 }
 @-webkit-keyframes zoom {
   0% {
-    background-size: 100%;
+    transform: scale(1);
   }
   50% {
-    background-size: 110%;
+    transform: scale(1.2);
   }
   100% {
-    background-size: 100%;
+    transform: scale(1);
   }
 }
 @keyframes zoom {
   0% {
-    background-size: 100%;
+    transform: scale(1);
   }
   50% {
-    background-size: 110%;
+    transform: scale(1.2);
   }
   100% {
-    background-size: 100%;
+    transform: scale(1);
   }
 }
 .home .bg-home .bg-black {
@@ -287,6 +295,9 @@ header form input[type=submit] {
 }
 .home .bg-home .bg-black > div p {
   line-height: 150%;
+}
+.home .bg-home .bg-black > div a {
+  margin-bottom: 30px;
 }
 .home .activites {
   display: flex;
