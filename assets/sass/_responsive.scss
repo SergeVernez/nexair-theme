@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+	.w50 {
+		width: 100%;
+	}
+	// HOME
+	.home {
+		.activites {
+			flex-direction: column;
+			.bloc-secteur {
+				width: 100%;
+			}
+		}
+		.atex .container {
+			flex-direction: column;
+			div:last-of-type,
+			div:first-of-type {
+				width: 100%;
+			}
+		}
+		.savoirFaire .ligneSavoirFaire {
+			flex-direction: column;
+			div {
+				width: 100%;
+			}
+		}
+	}
+}

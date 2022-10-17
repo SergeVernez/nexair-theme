@@ -4,6 +4,7 @@
 		color: white;
 		position: relative;
 		overflow: hidden;
+		margin-bottom: 60px;
 
 		img {
 			position: absolute;
@@ -85,6 +86,7 @@
 			position: relative;
 			overflow: hidden;
 			border-radius: 15px;
+			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 			h3 {
 				font-weight: 600;
 				font-size: 16px;
@@ -238,15 +240,21 @@
 	.produits {
 		display: flex;
 		background: $bleu;
-		padding: 60px 0;
+		//padding: 60px 0;
 		h2 {
 			color: white;
-			padding: 30px 0;
+			padding-top: 60px;
+		}
+		a {
+			margin-bottom: 3%;
 		}
 	}
 
 	.realisation {
 		display: flex;
-		padding: 60px 0;
+		padding-top: 60px;
+		a{
+			margin-bottom: 3%;
+		}
 	}
 }

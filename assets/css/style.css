@@ -36,6 +36,10 @@
   background-size: 50%;
 }
 
+.m-b60 {
+  margin-bottom: 60px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -229,6 +233,7 @@ header form input[type=submit] {
   color: white;
   position: relative;
   overflow: hidden;
+  margin-bottom: 60px;
   /* effet parallax */
 }
 .home .bg-home img {
@@ -320,6 +325,7 @@ header form input[type=submit] {
   position: relative;
   overflow: hidden;
   border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 .home .activites .bloc-secteur h3 {
   font-weight: 600;
@@ -453,15 +459,20 @@ header form input[type=submit] {
 .home .produits {
   display: flex;
   background: #263c59;
-  padding: 60px 0;
 }
 .home .produits h2 {
   color: white;
-  padding: 30px 0;
+  padding-top: 60px;
+}
+.home .produits a {
+  margin-bottom: 3%;
 }
 .home .realisation {
   display: flex;
-  padding: 60px 0;
+  padding-top: 60px;
+}
+.home .realisation a {
+  margin-bottom: 3%;
 }
 
 .bg-footer {
@@ -535,4 +546,29 @@ header form input[type=submit] {
 .ligne-2 div {
   border-width: 50%;
   width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .w50 {
+    width: 100%;
+  }
+  .home .activites {
+    flex-direction: column;
+  }
+  .home .activites .bloc-secteur {
+    width: 100%;
+  }
+  .home .atex .container {
+    flex-direction: column;
+  }
+  .home .atex .container div:last-of-type,
+.home .atex .container div:first-of-type {
+    width: 100%;
+  }
+  .home .savoirFaire .ligneSavoirFaire {
+    flex-direction: column;
+  }
+  .home .savoirFaire .ligneSavoirFaire div {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
