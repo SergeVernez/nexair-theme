@@ -1,12 +1,16 @@
 .bg-footer {
-	padding: 50px 0;
-	background: black;
+	background: url("../img/fond\ footer.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: 5px solid $vert;
 
-	
+	nav {
+		margin-bottom: 40px;
+	}
 
 	ul {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-between;
 		list-style-type: none;
 		width: 100%;
 		text-transform: uppercase;
@@ -24,8 +28,9 @@
 
 	img {
 		display: block;
-		margin: auto;
-		max-width: 250px;
+		margin: 5% auto;
+		max-width: 20%;
+		padding-bottom: 30px;
 	}
 
 	hr {
@@ -35,10 +40,38 @@
 		display: flex;
 		div {
 			width: 50%;
+			margin: 5%;
 		}
 	}
-}
-.bg-vert {
-		background: $vert;
-		min-height: 10px;
+	.d-f {
+		display: flex;
+		margin: 30px;
+		justify-content: space-evenly;
 	}
+	h3 {
+		color: white;
+	}
+	p {
+		color: white;
+		text-align: center;
+		font-size: 14px;
+		font-weight: 300;
+	}
+	a {
+		color: white;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: 300;
+	}
+	i {
+		color: white;
+		font-size: 32px;
+	}
+}
+.ligne-2 {
+	display: flex;
+	div {
+		border-width: 50%;
+		width: 50%;
+	}
+}

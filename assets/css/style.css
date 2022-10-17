@@ -66,7 +66,6 @@ h2 {
   font-size: 30px;
   text-transform: uppercase;
   padding-bottom: 30px;
-  padding-top: 30px;
   color: #263c59;
   text-align: left;
 }
@@ -252,11 +251,15 @@ header form input[type=submit] {
 }
 .home .bg-home .bg-black > div h2 {
   color: white;
+  padding-bottom: 15px;
   text-align: left;
   letter-spacing: 5px;
 }
 .home .bg-home .bg-black > div h2:first-of-type {
   padding-top: 0;
+}
+.home .bg-home .bg-black > div p {
+  line-height: 150%;
 }
 .home .activites {
   display: flex;
@@ -380,33 +383,33 @@ header form input[type=submit] {
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
 }
-.home .savoirFaire .container {
+.home .savoirFaire .ligneSavoirFaire {
   display: flex;
   flex-wrap: wrap;
   gap: 60px;
 }
-.home .savoirFaire .container div {
+.home .savoirFaire .ligneSavoirFaire div {
   padding: 30px;
   width: calc(33.3333333333% - 40px);
 }
-.home .savoirFaire .container h2 {
+.home .savoirFaire .ligneSavoirFaire h2 {
   width: 100%;
 }
-.home .savoirFaire .container h3 {
+.home .savoirFaire .ligneSavoirFaire h3 {
   font-size: 18px;
   color: white;
 }
-.home .savoirFaire .container p {
+.home .savoirFaire .ligneSavoirFaire p {
   font-size: 14px;
   color: white;
   text-align: center;
 }
-.home .savoirFaire .container .btn {
+.home .savoirFaire .ligneSavoirFaire .btn {
   display: block;
   width: 100%;
   text-align: center;
 }
-.home .savoirFaire .container .btn:hover {
+.home .savoirFaire .ligneSavoirFaire .btn:hover {
   transform: scale(1.09, 1.09);
 }
 .home .produits {
@@ -424,12 +427,17 @@ header form input[type=submit] {
 }
 
 .bg-footer {
-  padding: 50px 0;
-  background: black;
+  background: url("../img/fond footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 5px solid #8bb53c;
+}
+.bg-footer nav {
+  margin-bottom: 40px;
 }
 .bg-footer ul {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style-type: none;
   width: 100%;
   text-transform: uppercase;
@@ -444,8 +452,9 @@ header form input[type=submit] {
 }
 .bg-footer img {
   display: block;
-  margin: auto;
-  max-width: 250px;
+  margin: 5% auto;
+  max-width: 20%;
+  padding-bottom: 30px;
 }
 .bg-footer hr {
   border-color: #8bb53c;
@@ -455,9 +464,37 @@ header form input[type=submit] {
 }
 .bg-footer .ligne div {
   width: 50%;
+  margin: 5%;
+}
+.bg-footer .d-f {
+  display: flex;
+  margin: 30px;
+  justify-content: space-evenly;
+}
+.bg-footer h3 {
+  color: white;
+}
+.bg-footer p {
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+.bg-footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+}
+.bg-footer i {
+  color: white;
+  font-size: 32px;
 }
 
-.bg-vert {
-  background: #8bb53c;
-  min-height: 10px;
+.ligne-2 {
+  display: flex;
+}
+.ligne-2 div {
+  border-width: 50%;
+  width: 50%;
 }/*# sourceMappingURL=style.css.map */

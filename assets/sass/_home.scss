@@ -25,11 +25,15 @@
 				}
 				h2 {
 					color: white;
+					padding-bottom: 15px;
 					text-align: left;
 					letter-spacing: 5px;
 					&:first-of-type {
 						padding-top: 0;
 					}
+				}
+				p {
+					line-height: 150%;
 				}
 			}
 		}
@@ -172,7 +176,7 @@
 			border-radius: 15px;
 			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
 		}
-		.container {
+		.ligneSavoirFaire {
 			display: flex;
 			flex-wrap: wrap;
 			gap: 60px;
