@@ -2,6 +2,8 @@
 	padding: 50px 0;
 	background: black;
 
+	
+
 	ul {
 		display: flex;
 		justify-content: space-evenly;
@@ -36,3 +38,7 @@
 		}
 	}
 }
+.bg-vert {
+		background: $vert;
+		min-height: 10px;
+	}

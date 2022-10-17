@@ -455,4 +455,9 @@ header form input[type=submit] {
 }
 .bg-footer .ligne div {
   width: 50%;
+}
+
+.bg-vert {
+  background: #8bb53c;
+  min-height: 10px;
 }/*# sourceMappingURL=style.css.map */
