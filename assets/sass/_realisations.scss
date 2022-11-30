@@ -1,0 +1,11 @@
+.single-realisations {
+	.bg-realisation {
+		background-size: cover;
+	}
+	.contenu {
+		display: flex;
+		section {
+			width: 50%;
+		}
+	}
+}
