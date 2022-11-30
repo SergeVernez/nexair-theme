@@ -53,7 +53,7 @@ get_header();
         </div>
 
         <div class="bloc-secteur mineral">
-            <h3 class="btn">mineral</h3>
+            <h3 class="btn">minéral</h3>
             <div class="bloc-contenu">
                 <p>Mines, Verreries, Cimenteries, Carrières</p>
                 <a href="#" class="btn">En savoir +</a>
