@@ -85,7 +85,7 @@ get_header();
         </div>
 
         <div class="bloc-secteur mettalurgie">
-            <h3 class="btn">mettalurgie</h3>
+            <h3 class="btn">métallurgie</h3>
             <div class="bloc-contenu">
                 <p>Fonderie, Métallurgie, Sidérurgie</p>
                 <a href="#" class="btn">En savoir +</a>
