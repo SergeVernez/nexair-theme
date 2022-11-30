@@ -12,9 +12,11 @@ get_header();
 
 	<main>
 		<section class="bg-realisation" style="background-image:url('<?php get_the_post_thumbnail_url() ?>')">
-			<h1><?php the_title() ?></h1>
+			<div class="container">
+				<h1><?php the_title() ?></h1>
+			</div>
 		</section>
-		<section class="contenu">
+		<section class="contenu container">
 			<article class="desc">
 				<?php the_content() ?>
 			</article>
