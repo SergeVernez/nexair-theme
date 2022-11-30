@@ -15,10 +15,10 @@ get_header();
 			<h1><?php the_title() ?></h1>
 		</section>
 		<section class="contenu">
-			<div class="desc">
+			<article class="desc">
 				<?php the_content() ?>
-			</div>
-			<div class="galerie">
+			</article>
+			<article class="galerie">
 				<div id="unite">
 					<?php 
 						$images = get_field('galerie');
@@ -28,7 +28,7 @@ get_header();
 							<?php endforeach; ?>
 						<?php endif; ?>
 				</div>
-			</div>
+			</article>
 		</section>
 	</main><!-- #main -->
 

@@ -556,7 +556,7 @@ header form input[type=submit] {
 .single-realisations .contenu {
   display: flex;
 }
-.single-realisations .contenu section {
+.single-realisations .contenu article {
   width: 50%;
 }
 
