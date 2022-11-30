@@ -234,7 +234,9 @@ header form input[type=submit] {
   position: relative;
   overflow: hidden;
   margin-bottom: 60px;
+  background-size: cover;
   background-image: url(../img/home.png);
+  background-position-x: right;
   /* effet parallax */
 }
 .home .bg-home img {
