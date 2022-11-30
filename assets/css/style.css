@@ -234,19 +234,20 @@ header form input[type=submit] {
   position: relative;
   overflow: hidden;
   margin-bottom: 60px;
+  background-image: url(../img/home.png);
   /* effet parallax */
 }
 .home .bg-home img {
   position: absolute;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: right center;
-     object-position: right center;
+  object-position: right center;
   z-index: -1;
   width: 100%;
   height: 100%;
   -webkit-animation: zoom 50s linear infinite;
-          animation: zoom 50s linear infinite;
+  animation: zoom 50s linear infinite;
 }
 @-webkit-keyframes zoom {
   0% {

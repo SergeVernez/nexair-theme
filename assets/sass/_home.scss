@@ -5,18 +5,34 @@
 		position: relative;
 		overflow: hidden;
 		margin-bottom: 60px;
+		background-image: url(../img/home.png);
 
 		img {
 			position: absolute;
+			-o-object-fit: cover;
 			object-fit: cover;
+			-o-object-position: right center;
 			object-position: right center;
 			z-index: -1;
 			width: 100%;
 			height: 100%;
+			-webkit-animation: zoom 50s linear infinite;
 			animation: zoom 50s linear infinite;
 		}
 
 		/* effet parallax */
+
+		@-webkit-keyframes zoom {
+			0% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(1.17);
+			}
+			100% {
+				transform: scale(1);
+			}
+		}
 
 		@keyframes zoom {
 			0% {
@@ -71,7 +87,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 30px;
-	
 
 		/***** Bloc-secteur d'activités *****/
 		.bloc-secteur {
