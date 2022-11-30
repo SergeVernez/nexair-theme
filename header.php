@@ -25,9 +25,7 @@
     <?php wp_body_open(); ?>
     <header class="container">
         <div class="logo">
-            <a href="#">
-                <img src="img/Logo.svg" alt="logo Nexair" />
-            </a>
+            <?php the_custom_logo() ?>
         </div>
 
         <!----- menu desktop ------>
