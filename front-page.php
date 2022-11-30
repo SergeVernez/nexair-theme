@@ -151,35 +151,7 @@ get_header();
                 <a href="#" class="btn">en savoir +</a>
             </div>
 
-            <div class="bloc-savoirfaire">
-                <h3>Nettoyage centralisé</h3>
-                <p>Pour un air propre</p>
-                <a href="#" class="btn">en savoir +</a>
-            </div>
 
-            <div class="bloc-savoirfaire">
-                <h3>ventillation industrielle</h3>
-                <p>Pour un air propre et renouvelé</p>
-                <a href="#" class="btn">en savoir +</a>
-            </div>
-
-            <div class="bloc-savoirfaire">
-                <h3>transport pneumatique</h3>
-                <p>Pour transporter vrac, poudres, granulés…</p>
-                <a href="#" class="btn">en savoir +</a>
-            </div>
-
-            <div class="bloc-savoirfaire">
-                <h3>transport de déchets</h3>
-                <p>Pour supprimer le ramassage manuel et optimiser la récupération de matières</p>
-                <a href="#" class="btn">en savoir +</a>
-            </div>
-
-            <div class="bloc-savoirfaire">
-                <h3>récupération d’energie</h3>
-                <p>Le recyclage d’air</p>
-                <a href="#" class="btn">en savoir +</a>
-            </div>
         </div>
     </section>
 
