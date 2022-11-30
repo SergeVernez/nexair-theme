@@ -1,7 +1,11 @@
 jQuery(document).ready(function ($) {
 	$("#unite").unitegallery({
-		tile_enable_textpanel: true,
-		tile_textpanel_title_text_align: "center",
-		tile_textpanel_always_on: true,
+		slider_enable_text_panel:true,
+        strippanel_enable_handle:false,
+        slider_textpanel_enable_title:false,
+        textpanel_enable_bg:false,
+        slider_textpanel_css_title:[object Object],
+        slider_textpanel_css_description:[object Object],
+        slider_textpanel_padding_bottom:15,
 	});
 });
