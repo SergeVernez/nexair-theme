@@ -529,6 +529,9 @@ header form input[type=submit] {
 .single-realisations .contenu article.desc > * {
   padding-bottom: 20px;
 }
+.single-realisations .ug-gallery-wrapper > * {
+  border-radius: 15px;
+}
 
 @media screen and (max-width: 768px) {
   .w50 {
