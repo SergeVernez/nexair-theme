@@ -537,6 +537,9 @@ header form input[type=submit] {
 .home .realisation .container > a div a {
   text-decoration: none;
 }
+.home .realisation .container > a div h3 {
+  text-decoration: none;
+}
 
 .single-realisations .bg-realisation {
   background-size: cover;
