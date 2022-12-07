@@ -144,16 +144,29 @@ get_header();
     <section class="produits">
         <div class="container">
             <h2>Nos produits</h2>
-            <div>
-                <img src="#" alt="" />
-                <h3></h3>
-                <p></p>
-            </div>
-            <div>
-                <img src="#" alt="" />
-                <h3></h3>
-                <p></p>
-            </div>
+            <?php 
+            // WP_Query arguments
+            $args = array(
+                'post_type' => array( 'produit' ),
+            );
+
+            // The Query
+            $query = new WP_Query( $args );
+
+            // The Loop
+            while ( $query->have_posts() ) :
+                $query->the_post(); ?>
+                    <div>
+                        <img src="<?php the_post_thumbnail_url () ?>" alt="">
+                        <h3> <?php the_title () ?></h3>
+                        <p> <?php the_excerpt () ?></p>
+                        <a href="<?php the_permalink () ?>" class="btn">voir plus</a>
+                    </div>
+            <?php endwhile;
+
+            // Restore original Post Data
+            wp_reset_postdata();
+             ?> 
             <a href="#" class="btn">voir tous nos produits</a>
         </div>
     </section>
