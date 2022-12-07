@@ -2,6 +2,7 @@ header {
 	display: flex;
 	align-items: center;
 	height: 100wh;
+	box-shadow: 2px 2px 5px black;
 
 	form {
 		display: flex;
@@ -42,7 +43,7 @@ header {
 	display: flex;
 	font-size: 14px;
 	padding: 30px 0;
-	box-shadow: 2px 2px 5px black;
+	
 	ul {
 		display: flex;
 		justify-content: space-evenly;
