@@ -197,7 +197,9 @@ get_header();
             // Restore original Post Data
             wp_reset_postdata();
              ?> 
-            <a href="#" class="btn">voir +</a>
+            <div>
+                <a href="#" class="btn">voir +</a>
+            </div>
         </div>
     </section>
 </main>

@@ -506,13 +506,25 @@ header form input[type=submit] {
   margin-bottom: 3%;
 }
 .home .realisation {
-  display: flex;
   background: #263c59;
-  display: flex;
   padding-top: 60px;
 }
 .home .realisation a {
   margin-bottom: 3%;
+}
+.home .realisation .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.home .realisation .container h2 {
+  width: 100%;
+}
+.home .realisation .container > a {
+  width: 30%;
+}
+.home .realisation .container > a div {
+  background-size: cover;
 }
 
 .single-realisations .bg-realisation {
