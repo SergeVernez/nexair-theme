@@ -238,7 +238,6 @@
 			& > a {
 				width: 30%;
 				aspect-ratio: 16 / 9;
-				border-radius: 15px;
 
 				div {
 					background-size: cover;
@@ -246,6 +245,7 @@
 					display: flex;
 					justify-content: center;
 					align-items: center;
+					border-radius: 15px;
 					a {
 						text-decoration: none;
 					}

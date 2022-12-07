@@ -524,7 +524,6 @@ header form input[type=submit] {
 .home .realisation .container > a {
   width: 30%;
   aspect-ratio: 16/9;
-  border-radius: 15px;
 }
 .home .realisation .container > a div {
   background-size: cover;
@@ -532,6 +531,7 @@ header form input[type=submit] {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 15px;
 }
 .home .realisation .container > a div a {
   text-decoration: none;
