@@ -6,6 +6,11 @@
 		display: flex;
 		article {
 			width: 50%;
+			&.desc {
+				& > * {
+					padding-bottom: 20px;
+				}
+			}
 		}
 	}
 }

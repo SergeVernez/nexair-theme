@@ -526,6 +526,9 @@ header form input[type=submit] {
 .single-realisations .contenu article {
   width: 50%;
 }
+.single-realisations .contenu article.desc > * {
+  padding-bottom: 20px;
+}
 
 @media screen and (max-width: 768px) {
   .w50 {
