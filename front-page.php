@@ -140,21 +140,6 @@ get_header();
         </div>
     </section>
 
-    <!----- début section Savoir faire ----->
-    <section class="savoirFaire">
-        <div class="container">
-            <h2>Notre savoir faire</h2>
-
-            <div class="bloc-savoirfaire">
-                <h3>aspiration et dépousiérage industriel</h3>
-                <p>Pour évacuer de façon continue et centralisée toute pollution de l’air intérieur</p>
-                <a href="#" class="btn">en savoir +</a>
-            </div>
-
-
-        </div>
-    </section>
-
     <!----- début section produits ----->
     <section class="produits">
         <div class="container">

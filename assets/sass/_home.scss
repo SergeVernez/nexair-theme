@@ -210,51 +210,6 @@
 		}
 	}
 
-	.savoirFaire {
-		padding: 60px 0;
-		.bloc-savoirfaire {
-			display: flex;
-			flex-wrap: wrap;
-			align-content: space-evenly;
-			justify-content: center;
-			aspect-ratio: 1 / 1;
-			padding: 18px;
-			background: $bleu;
-			border-radius: 15px;
-			box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
-		}
-		.ligneSavoirFaire {
-			display: flex;
-			flex-wrap: wrap;
-			gap: 60px;
-			div {
-				padding: 30px;
-				width: calc((100% / 3) - 40px);
-			}
-			h2 {
-				width: 100%;
-			}
-			h3 {
-				font-size: 18px;
-				color: white;
-			}
-			p {
-				font-size: 14px;
-				color: white;
-				text-align: center;
-			}
-			.btn {
-				display: block;
-				width: 100%;
-				text-align: center;
-
-				&:hover {
-					transform: scale(1.09, 1.09);
-				}
-			}
-		}
-	}
-
 	.produits {
 		display: flex;
 		background: $bleu;

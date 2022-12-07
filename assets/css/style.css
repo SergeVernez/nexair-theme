@@ -489,49 +489,6 @@ header form input[type=submit] {
 .home .atex .container img {
   border-radius: 15px;
 }
-.home .savoirFaire {
-  padding: 60px 0;
-}
-.home .savoirFaire .bloc-savoirfaire {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-evenly;
-  justify-content: center;
-  aspect-ratio: 1/1;
-  padding: 18px;
-  background: #263c59;
-  border-radius: 15px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.509);
-}
-.home .savoirFaire .ligneSavoirFaire {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 60px;
-}
-.home .savoirFaire .ligneSavoirFaire div {
-  padding: 30px;
-  width: calc(33.3333333333% - 40px);
-}
-.home .savoirFaire .ligneSavoirFaire h2 {
-  width: 100%;
-}
-.home .savoirFaire .ligneSavoirFaire h3 {
-  font-size: 18px;
-  color: white;
-}
-.home .savoirFaire .ligneSavoirFaire p {
-  font-size: 14px;
-  color: white;
-  text-align: center;
-}
-.home .savoirFaire .ligneSavoirFaire .btn {
-  display: block;
-  width: 100%;
-  text-align: center;
-}
-.home .savoirFaire .ligneSavoirFaire .btn:hover {
-  transform: scale(1.09, 1.09);
-}
 .home .produits {
   display: flex;
   background: #263c59;
