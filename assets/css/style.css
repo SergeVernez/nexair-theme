@@ -127,7 +127,6 @@ header {
   display: flex;
   align-items: center;
   height: 100wh;
-  box-shadow: 2px 2px 5px black;
 }
 header form {
   display: flex;
