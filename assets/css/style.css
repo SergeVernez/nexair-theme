@@ -491,7 +491,6 @@ header form input[type=submit] {
 }
 .home .produits {
   display: flex;
-  background: #263c59;
 }
 .home .produits h2 {
   color: white;
@@ -501,6 +500,7 @@ header form input[type=submit] {
   margin-bottom: 3%;
 }
 .home .realisation {
+  background: #263c59;
   display: flex;
   padding-top: 60px;
 }
