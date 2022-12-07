@@ -3,5 +3,9 @@ jQuery(document).ready(function ($) {
 		gallery_theme: "compact",
 		slider_enable_text_panel: true,
 		strippanel_enable_handle: false,
+		strippanel_background_color: "transparent",
+		thumb_round_corners_radius: 15,
+		thumb_height: 120,
+		strip_space_between_thumbs: 15,
 	});
 });
