@@ -51,7 +51,7 @@
             <?php echo do_shortcode('[contact-form-7 id="56" title="Contact"]' ) ?>
         </div>
         <div class="appel">
-            <h4>Vous faire rappeler</h4>
+            <h4>Rappelez-moi</h4>
             <form action="">
                 <label class="w100">
                     Nom
@@ -62,25 +62,33 @@
                     <input type="text" name="" id="" />
                 </label>
                 <label class="w100">
+                    Fonction
+                    <input type="text" name="" id="" />
+                </label>
+                <label class="w100">
+                    Numéro de téléphone
+                    <input type="text" name="" id="" />
+                </label>
+                <label class="w100">
                     Email
                     <input type="text" name="" id="" /> </label><label class="w100">
                     Variable
                     <input type="text" name="" id="" />
                 </label>
                 <label class="w50">
-                    Champ 1
+                    société
                     <input type="text" name="" id="" />
                 </label>
                 <label class="w50">
-                    Champ 2
+                    Pays
                     <input type="text" name="" id="" />
                 </label>
                 <label class="w50">
-                    Champ 3
+                    Département
                     <input type="text" name="" id="" />
                 </label>
                 <label class="w50">
-                    Champ 4
+                    Question ou demande
                     <input type="text" name="" id="" />
                 </label>
                 <input type="submit" value="Envoyer" class="btn" />
