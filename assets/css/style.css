@@ -524,6 +524,7 @@ header form input[type=submit] {
 .home .realisation .container > a {
   width: 30%;
   aspect-ratio: 16/9;
+  text-decoration: none;
 }
 .home .realisation .container > a div {
   background-size: cover;
@@ -534,11 +535,7 @@ header form input[type=submit] {
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
-.home .realisation .container > a div a {
-  text-decoration: none;
-}
 .home .realisation .container > a div h3 {
-  text-decoration: none;
   width: 90%;
   background: white;
   color: #263c59;

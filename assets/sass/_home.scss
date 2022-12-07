@@ -238,6 +238,7 @@
 			& > a {
 				width: 30%;
 				aspect-ratio: 16 / 9;
+				text-decoration: none;
 
 				div {
 					background-size: cover;
@@ -248,11 +249,7 @@
 					border-radius: 15px;
 					box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 
-					a {
-						text-decoration: none;
-					}
 					h3 {
-						text-decoration: none;
 						width: 90%;
 						background: white;
 						color: #263c59;
