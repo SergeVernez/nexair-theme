@@ -189,7 +189,7 @@ get_header();
                 $query->the_post(); ?>
                     <a href="<?php the_permalink() ?>">
                         <div style="background-image:url('<?php the_post_thumbnail_url() ?>')">
-                            <h3><?php the_title() ?></h3>
+                            <h3 class="btn"><?php the_title() ?></h3>
                         </div>
                     </a>
             <?php endwhile;
