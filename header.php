@@ -50,4 +50,40 @@
             <h4>Votre projet</h4>
             <?php echo do_shortcode('[contact-form-7 id="56" title="Contact"]' ) ?>
         </div>
+        <div class="appel">
+            <h4>Vous faire rappeler</h4>
+            <form action="">
+                <label class="w100">
+                    Nom
+                    <input type="text" name="" id="" />
+                </label>
+                <label class="w100">
+                    Prénom
+                    <input type="text" name="" id="" />
+                </label>
+                <label class="w100">
+                    Email
+                    <input type="text" name="" id="" /> </label><label class="w100">
+                    Variable
+                    <input type="text" name="" id="" />
+                </label>
+                <label class="w50">
+                    Champ 1
+                    <input type="text" name="" id="" />
+                </label>
+                <label class="w50">
+                    Champ 2
+                    <input type="text" name="" id="" />
+                </label>
+                <label class="w50">
+                    Champ 3
+                    <input type="text" name="" id="" />
+                </label>
+                <label class="w50">
+                    Champ 4
+                    <input type="text" name="" id="" />
+                </label>
+                <input type="submit" value="Envoyer" class="btn" />
+            </form>
+        </div>
     </header>

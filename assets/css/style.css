@@ -227,6 +227,16 @@ header form input[type=submit] {
   z-index: 1;
 }
 
+.appel {
+  width: calc(100% - 70px);
+  height: 100%;
+  background-color: white;
+  position: fixed;
+  left: 70px;
+  top: 0;
+  z-index: 1;
+}
+
 .bg-footer {
   background: url("../img/fond footer.png");
   background-repeat: no-repeat;
