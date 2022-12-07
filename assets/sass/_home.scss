@@ -233,11 +233,21 @@
 			justify-content: space-between;
 			h2 {
 				width: 100%;
+				color: white;
 			}
 			& > a {
 				width: 30%;
+				aspect-ratio: 16 / 9;
+
 				div {
 					background-size: cover;
+					height: 100%;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					a {
+						text-decoration: none;
+					}
 				}
 			}
 		}

@@ -519,12 +519,21 @@ header form input[type=submit] {
 }
 .home .realisation .container h2 {
   width: 100%;
+  color: white;
 }
 .home .realisation .container > a {
   width: 30%;
+  aspect-ratio: 16/9;
 }
 .home .realisation .container > a div {
   background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .realisation .container > a div a {
+  text-decoration: none;
 }
 
 .single-realisations .bg-realisation {
