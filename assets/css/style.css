@@ -532,6 +532,9 @@ header form input[type=submit] {
 .single-realisations .ug-gallery-wrapper > * {
   border-radius: 15px;
 }
+.single-realisations .ug-thumbs-strip-inner > * {
+  box-shadow: 0 0 5px grey;
+}
 
 @media screen and (max-width: 768px) {
   .w50 {
