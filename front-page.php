@@ -162,6 +162,28 @@ get_header();
     <section class="realisation">
         <div class="container">
             <h2>Nos réalisations</h2>
+            <?php 
+            // WP_Query arguments
+            $args = array(
+                'post_type' => array( 'realisations' ),
+            );
+
+            // The Query
+            $query = new WP_Query( $args );
+
+            // The Loop
+            while ( $query->have_posts() ) :
+                $query->the_post(); ?>
+                    <a href="<?php the_permalink() ?>">
+                        <div style="background-image:url('<?php the_post_thumbnail_url() ?>')">
+                            <h3><?php the_title() ?></h3>
+                        </div>
+                    </a>
+            <?php endwhile;
+
+            // Restore original Post Data
+            wp_reset_postdata();
+             ?> 
             <a href="#" class="btn">voir +</a>
         </div>
     </section>
