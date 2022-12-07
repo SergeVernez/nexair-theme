@@ -31,7 +31,7 @@
         <!----- menu desktop ------>
         <nav class="menu">
             <ul>
-                <li><a href="#">secteur</a></li>
+                <li><a href="#">secteurs</a></li>
                 <li><a href="#">atex</a></li>
                 <li><a href="#">produits</a></li>
                 <li><a href="#">services</a></li>
