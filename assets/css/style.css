@@ -166,6 +166,7 @@ header form input[type=submit] {
   display: flex;
   font-size: 14px;
   padding: 30px 0;
+  box-shadow: 2px 2px 5px black;
 }
 .menu ul {
   display: flex;
@@ -173,7 +174,6 @@ header form input[type=submit] {
   list-style-type: none;
   width: 100%;
   text-transform: uppercase;
-  box-shadow: 2px 2px 5px black;
 }
 .menu ul li a {
   display: block;
