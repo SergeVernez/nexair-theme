@@ -211,7 +211,6 @@
 	}
 
 	.produits {
-		display: flex;
 		//padding: 60px 0;
 		h2 {
 			color: white;
@@ -223,6 +222,7 @@
 	}
 
 	.realisation {
+		display: flex;
 		background: $bleu;
 		display: flex;
 		padding-top: 60px;

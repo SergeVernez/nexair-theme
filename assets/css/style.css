@@ -498,9 +498,6 @@ header form input[type=submit] {
 .home .atex .container img {
   border-radius: 15px;
 }
-.home .produits {
-  display: flex;
-}
 .home .produits h2 {
   color: white;
   padding-top: 60px;
@@ -509,6 +506,7 @@ header form input[type=submit] {
   margin-bottom: 3%;
 }
 .home .realisation {
+  display: flex;
   background: #263c59;
   display: flex;
   padding-top: 60px;
