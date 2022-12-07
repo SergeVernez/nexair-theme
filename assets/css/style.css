@@ -232,7 +232,7 @@ header form input[type=submit] {
   height: 100%;
   background-color: white;
   position: fixed;
-  left: 70px;
+  left: 100%;
   top: 0;
   z-index: 1;
 }

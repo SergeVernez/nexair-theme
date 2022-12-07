@@ -6,6 +6,7 @@ jQuery(document).ready(function ($) {
 		strippanel_background_color: "transparent",
 		thumb_round_corners_radius: 15,
 		thumb_height: 120,
+		thumb_fixed_size: false,
 		strip_space_between_thumbs: 15,
 	});
 });
