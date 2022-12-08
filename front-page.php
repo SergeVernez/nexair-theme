@@ -18,6 +18,7 @@ get_header();
 <main>
     <!----- début de section accueil ----->
     <section class="bg-home">
+        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home.png" alt="">
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT+CTA ----->
