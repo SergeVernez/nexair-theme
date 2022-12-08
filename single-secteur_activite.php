@@ -12,8 +12,8 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-	    <!----- début de section accueil ----->
-    <section class="bg-home">
+	    <!----- début de section agroalimentaire ----->
+    <section class=".bg-agroalimentairee">
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT+CTA ----->
