@@ -97,6 +97,7 @@ h4 {
 
 p {
   font-size: 18px;
+  line-height: 1.5;
 }
 
 /* style des balises html */
@@ -665,6 +666,8 @@ header form input[type=submit] {
 }
 .single-secteur_activite ul {
   margin-left: 20px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 .single-secteur_activite .wp-block-group {
   padding: 60px 0;
