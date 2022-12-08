@@ -378,11 +378,11 @@ header form input[type=submit] {
 .home .bg-home .bg-black > div h1 {
   text-transform: uppercase;
   padding: 50px 0;
-  font-weight: 600;
-  letter-spacing: 5px;
+  font-weight: 500;
+  letter-spacing: 7px;
 }
 .home .bg-home .bg-black > div h1::first-line {
-  font-size: 70px;
+  font-size: 75px;
 }
 .home .bg-home .bg-black > div h2 {
   color: white;
