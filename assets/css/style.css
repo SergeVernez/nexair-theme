@@ -665,7 +665,7 @@ header form input[type=submit] {
 .single-secteur_activite .wp-block-buttons {
   margin-top: 30px;
 }
-.single-secteur_activite .wp-block-buttons_link {
+.single-secteur_activite .wp-block-buttons-link {
   padding: 5px 60px;
 }
 .single-secteur_activite ul,
