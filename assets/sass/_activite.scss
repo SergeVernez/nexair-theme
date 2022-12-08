@@ -1,12 +1,11 @@
 .single-secteur_activite {
-	.bg-agroalimentaire {
+	.image-fond {
 		min-height: calc(100vh - 75px);
 		color: white;
 		position: relative;
 		overflow: hidden;
 		margin-bottom: 60px;
 		background-size: cover;
-		background-image: url(../img/Agroalimentaire.png);
 		background-position-x: right;
 
 		img {

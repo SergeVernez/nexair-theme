@@ -13,7 +13,7 @@ get_header();
 	<main id="primary" class="site-main">
 
 	    <!----- début de section agroalimentaire ----->
-    <section class="bg-agroalimentaire" style="background-image:url('<?php the_post_thumbnail_url(  ) ?>')">
+    <section class="image-fond" style="background-image:url('<?php the_post_thumbnail_url(  ) ?>')">
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT ----->
