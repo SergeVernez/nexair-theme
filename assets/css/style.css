@@ -641,23 +641,24 @@ header form input[type=submit] {
   padding: 50px 0;
   font-weight: 500;
   letter-spacing: 7px;
+  font-size: 70px;
 }
-.single-secteur_activite .image-fond .bg-black > div h1::first-line {
-  font-size: 75px;
+.single-secteur_activite .image-fond .bg-black > div h1 :last-of-type {
+  font-size: 70px;
 }
-.single-secteur_activite .image-fond .bg-black > div h2 {
+.single-secteur_activite .image-fond .bg-black h2 {
   color: white;
   padding-bottom: 15px;
   text-align: left;
   letter-spacing: 3px;
 }
-.single-secteur_activite .image-fond .bg-black > div h2:first-of-type {
+.single-secteur_activite .image-fond .bg-black h2:first-of-type {
   padding-top: 0;
 }
-.single-secteur_activite .image-fond .bg-black > div h2:last-of-type {
+.single-secteur_activite .image-fond .bg-black h2:last-of-type {
   letter-spacing: 11px;
 }
-.single-secteur_activite .image-fond .bg-black > div p {
+.single-secteur_activite .image-fond .bg-black p {
   line-height: 150%;
 }
 
