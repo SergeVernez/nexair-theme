@@ -61,7 +61,7 @@ get_header();
                      <div class="bloc-secteur" style="background-image:url('<?php the_post_thumbnail_url() ?>')">
                         <h3 class="btn"><?php the_title () ?> </h3>
                         <div class="bloc-contenu">
-                            <p>Agro, Céréales, Semences, Sucre</p>
+                            <p><?php the_field("titre_bandeau") ?></p>
                             <a href="<?php the_permalink () ?>" class="btn">En savoir +</a>
                         </div>
                     </div>
