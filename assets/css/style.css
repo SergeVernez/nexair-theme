@@ -674,6 +674,10 @@ header form input[type=submit] {
   font-size: 18px;
   line-height: 1.5;
 }
+.single-secteur_activite ul a,
+.single-secteur_activite ol a {
+  color: inherit;
+}
 .single-secteur_activite .wp-block-group {
   padding: 60px 0;
 }
