@@ -88,6 +88,12 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 p {
   font-size: 18px;
 }
