@@ -664,7 +664,7 @@ header form input[type=submit] {
 }
 .single-secteur_activite .wp-block-buttons {
   margin-top: 30px;
-  height: 3rem;
+  padding: 5px 60px;
 }
 .single-secteur_activite ul,
 .single-secteur_activite ol {
