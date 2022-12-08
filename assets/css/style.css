@@ -667,6 +667,9 @@ header form input[type=submit] {
 .single-secteur_activite ul {
   margin-left: 20px;
 }
+.single-secteur_activite .wp-block-group {
+  padding: 30px 0;
+}
 
 @media screen and (max-width: 768px) {
   .w50 {
