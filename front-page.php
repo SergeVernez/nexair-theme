@@ -49,7 +49,7 @@ get_header();
             <h3 class="btn">Agroalimentaire</h3>
             <div class="bloc-contenu">
                 <p>Agro, Céréales, Semences, Sucre</p>
-                <a href="#" class="btn">En savoir +</a>
+                <a href="https://cdui.amigrafdev.com/serge/secteur_activite/agroalimentaire/" class="btn">En savoir +</a>
             </div>
         </div>
 
