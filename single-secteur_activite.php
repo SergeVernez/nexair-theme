@@ -16,14 +16,13 @@ get_header();
     <section class=".bg-agroalimentaire">
         <div class="bg-black">
             <div class="container">
-                <!----- début TXT+CTA ----->
+                <!----- début TXT ----->
                 <div class="w50">
                     <h1>agroalimentaire</h1>
                     <h2>Filtre à manches - Céréale - Dépoussiérage</h2>
                     <p>Que vous soyez <strong>céréalier, semencier, producteur de sucre, ou de tout autre secteur alimentaire</strong>, Nexair est capable de répondre à vos problématiques de traitement air.
 					Que ce soit pour améliorer la qualité de l'air intérieur ou optimiser vos process, découvrez l’ensemble de nos interventions.
 					Lors de la conception de nos installations, nous prenons en compte des <strong>risques d’explosion de poussière</strong>.</p>
-                    <a href="#" class="btn">Voir nos réalisations</a>
                     </div>
             </div>
         </div>
