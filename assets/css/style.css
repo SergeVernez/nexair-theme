@@ -394,7 +394,7 @@ header form input[type=submit] {
   color: white;
   padding-bottom: 15px;
   text-align: left;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 .home .bg-home .bg-black > div h2:first-of-type {
   padding-top: 0;
