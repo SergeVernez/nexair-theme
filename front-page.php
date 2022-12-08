@@ -27,7 +27,7 @@ get_header();
                     <p><strong>...Basée dans le Nord de la France à Templemars</strong>,<br>Nexair vous accompagne, de
                         l’étude à la mise en oeuvre de vos installations, pour tout projet de <strong>dépoussiérage,
                             ventilation, transport pneumatique ou nettoyage centralisé,</strong> avec un seul et même
-                        objectif : <strong> fournir une solution sur mesure et un accompagnement sur le long
+                        objectif : <strong> fournir une solution sur mesure et un accompagnement<br> sur le long
                             terme.</strong></p>
                     <a href="#" class="btn">Voir nos réalisations</a>
                     <h2>Audit - étude - conseil</h2>
