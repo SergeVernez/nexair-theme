@@ -664,9 +664,6 @@ header form input[type=submit] {
 .single-secteur_activite bg-agroalimentaire .bg-black > div p {
   line-height: 150%;
 }
-.single-secteur_activite bg-agroalimentaire .bg-black > div a {
-  margin-bottom: 30px;
-}
 
 @media screen and (max-width: 768px) {
   .w50 {
