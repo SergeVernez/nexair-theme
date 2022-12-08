@@ -661,6 +661,12 @@ header form input[type=submit] {
 .single-secteur_activite .image-fond .bg-black p {
   line-height: 150%;
 }
+.single-secteur_activite .wp-block-buttons {
+  margin: 30px 0 60px 0;
+}
+.single-secteur_activite ul {
+  margin-left: 20px;
+}
 
 @media screen and (max-width: 768px) {
   .w50 {
