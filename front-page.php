@@ -45,6 +45,31 @@ get_header();
     </section>
 
     <section class="container activites">
+        <?php
+            // WP_Query arguments
+            $args = array(
+                'post_type' => array( 'secteur_activite' ),
+            );
+
+            // The Query
+            $query = new WP_Query( $args );
+
+            // The Loop
+                while ( $query->have_posts() ) :
+                    $query->the_post(); ?>
+
+                     <div class="bloc-secteur" style="background-image:url('<?php the_post_thumbnail_url() ?>')">
+                        <h3 class="btn"><?php the_title () ?> </h3>
+                        <div class="bloc-contenu">
+                            <p>Agro, Céréales, Semences, Sucre</p>
+                            <a href="<?php the_permalink () ?>" class="btn">En savoir +</a>
+                        </div>
+                    </div>
+
+                <?php endwhile;
+            // Restore original Post Data
+            wp_reset_postdata();
+        ?>
         <div class="bloc-secteur agroalimentaire">
             <h3 class="btn">Agroalimentaire</h3>
             <div class="bloc-contenu">
