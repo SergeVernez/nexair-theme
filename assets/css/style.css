@@ -587,7 +587,6 @@ header form input[type=submit] {
   color: white;
   position: relative;
   overflow: hidden;
-  margin-bottom: 60px;
   background-size: cover;
   background-position-x: right;
   /* effet parallax */
@@ -662,13 +661,13 @@ header form input[type=submit] {
   line-height: 150%;
 }
 .single-secteur_activite .wp-block-buttons {
-  margin: 30px 0 60px 0;
+  margin-top: 30px;
 }
 .single-secteur_activite ul {
   margin-left: 20px;
 }
 .single-secteur_activite .wp-block-group {
-  padding: 30px 0;
+  padding: 60px 0;
 }
 
 @media screen and (max-width: 768px) {
