@@ -13,7 +13,7 @@ get_header();
 	<main id="primary" class="site-main">
 
 	    <!----- début de section agroalimentaire ----->
-    <section class=".bg-agroalimentairee">
+    <section class=".bg-agroalimentaire">
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT+CTA ----->
