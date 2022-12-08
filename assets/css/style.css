@@ -396,6 +396,9 @@ header form input[type=submit] {
 .home .bg-home .bg-black > div h2:first-of-type {
   padding-top: 0;
 }
+.home .bg-home .bg-black > div h2:last-of-type {
+  letter-spacing: 10px;
+}
 .home .bg-home .bg-black > div p {
   line-height: 150%;
 }

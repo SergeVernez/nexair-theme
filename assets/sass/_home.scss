@@ -74,6 +74,9 @@
 					&:first-of-type {
 						padding-top: 0;
 					}
+					&:last-of-type {
+						letter-spacing: 10px;
+					}
 				}
 				p {
 					line-height: 150%;
