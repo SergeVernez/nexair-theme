@@ -585,7 +585,7 @@ header form input[type=submit] {
   box-shadow: 0 0 5px grey;
 }
 
-.single-secteur_activite bg-agroalimentaire {
+.single-secteur_activite .bg-agroalimentaire {
   min-height: calc(100vh - 75px);
   color: white;
   position: relative;
@@ -596,7 +596,7 @@ header form input[type=submit] {
   background-position-x: right;
   /* effet parallax */
 }
-.single-secteur_activite bg-agroalimentaire img {
+.single-secteur_activite .bg-agroalimentaire img {
   position: absolute;
   -o-object-fit: cover;
   object-fit: cover;
@@ -630,38 +630,38 @@ header form input[type=submit] {
     transform: scale(1);
   }
 }
-.single-secteur_activite bg-agroalimentaire .bg-black {
+.single-secteur_activite .bg-agroalimentaire .bg-black {
   background-color: rgba(0, 0, 0, 0.495);
   height: 100%;
   min-height: calc(100vh - 75px);
   display: flex;
   align-items: center;
 }
-.single-secteur_activite bg-agroalimentaire .bg-black > div {
+.single-secteur_activite .bg-agroalimentaire .bg-black > div {
   display: flex;
 }
-.single-secteur_activite bg-agroalimentaire .bg-black > div h1 {
+.single-secteur_activite .bg-agroalimentaire .bg-black > div h1 {
   text-transform: uppercase;
   padding: 50px 0;
   font-weight: 500;
   letter-spacing: 7px;
 }
-.single-secteur_activite bg-agroalimentaire .bg-black > div h1::first-line {
+.single-secteur_activite .bg-agroalimentaire .bg-black > div h1::first-line {
   font-size: 75px;
 }
-.single-secteur_activite bg-agroalimentaire .bg-black > div h2 {
+.single-secteur_activite .bg-agroalimentaire .bg-black > div h2 {
   color: white;
   padding-bottom: 15px;
   text-align: left;
   letter-spacing: 3px;
 }
-.single-secteur_activite bg-agroalimentaire .bg-black > div h2:first-of-type {
+.single-secteur_activite .bg-agroalimentaire .bg-black > div h2:first-of-type {
   padding-top: 0;
 }
-.single-secteur_activite bg-agroalimentaire .bg-black > div h2:last-of-type {
+.single-secteur_activite .bg-agroalimentaire .bg-black > div h2:last-of-type {
   letter-spacing: 11px;
 }
-.single-secteur_activite bg-agroalimentaire .bg-black > div p {
+.single-secteur_activite .bg-agroalimentaire .bg-black > div p {
   line-height: 150%;
 }
 
