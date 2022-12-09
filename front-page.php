@@ -80,7 +80,11 @@ get_header();
     <section class="atex">
         <div class="container">
             <div>
-                <h2>spécification atex</h2>
+                <?php if(ICL_LANGUAGE_CODE=='fr'): ?>
+                <h2>spécification Atex</h2>
+            <?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
+                <h2>Atex specification</h2>
+            <?php endif; ?>
                 <?php the_field('description_atex') ?>
                 <a class="btn" href="#">contactez-moi</a>
             </div>
@@ -93,7 +97,11 @@ get_header();
     <!----- début section produits ----->
     <section class="produits">
         <div class="container">
-            <h2>Nos produits</h2>
+             <?php if(ICL_LANGUAGE_CODE=='fr'): ?>
+                <h2>Nos produits</h2>
+            <?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
+                <h2>Our products</h2>
+            <?php endif; ?>
             <?php 
             // WP_Query arguments
             $args = array(
@@ -127,7 +135,11 @@ get_header();
     <!----- début section réalisation/galerie ----->
     <section class="realisation">
         <div class="container">
-            <h2>Nos réalisations</h2>
+             <?php if(ICL_LANGUAGE_CODE=='fr'): ?>
+                <h2>Nos réalisations</h2>
+            <?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
+                <h2>Our realisations</h2>
+            <?php endif; ?>
             <?php 
             // WP_Query arguments
             $args = array(
