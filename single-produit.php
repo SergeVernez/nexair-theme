@@ -24,6 +24,8 @@ get_header();
 			<h2>Description</h2>
 			<?php the_content() ?>
         </div>
+	</section>
+	<section>
 		<div>
 			<h2>Avantages</h2>
 			<?php the_field("avantage") ?>
