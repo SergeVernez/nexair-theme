@@ -80,15 +80,7 @@ get_header();
     <section class="atex">
         <div class="container">
             <div>
-                <h2>spécification atex</h2>
-                <p>La prévention des risques d’explosion sur les lieux de travail fait l’objet d’une réglementation
-                    spécifique, directive ATEX 2014/34/UE. L’application des principes généraux de la prévention et de
-                    l’évaluation du risque d’explosion est une obligation de l’employeur.</p>
-                <p>De part son expérience en atmosphère explosive (ATEX), notre société vous apporte un soutien dans
-                    votre démarche de mise en conformité aux directives européennes :</p>
-                <p>Utilisateurs 1999/92/CE, applicable au 30/06/2006. Constructeurs 94/9/CE applicable depuis le
-                    30/06/2003.</p>
-                <p>Nous vous proposons de <strong>modifier et adapter vos installations</strong> non-conformes.</p>
+                <?php the_field('description_atex') ?>
                 <a class="btn" href="#">contactez-moi</a>
             </div>
             <div>
