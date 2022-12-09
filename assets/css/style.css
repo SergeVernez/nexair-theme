@@ -240,10 +240,6 @@ header form input[type=submit] {
   text-orientation: mixed;
   transform: rotate(180deg);
 }
-.menucontact ul li:last-child {
-  text-align: right;
-  border-bottom: 1px solid #000;
-}
 .menucontact ul li a {
   display: flex;
   justify-content: center;

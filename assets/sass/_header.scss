@@ -89,11 +89,6 @@ header {
 			-webkit-text-orientation: mixed;
 			text-orientation: mixed;
 			transform: rotate(180deg);
-
-			&:last-child {
-				text-align: right;
-				border-bottom: 1px solid #000;
-			}
 			a {
 				display: flex;
 				justify-content: center;
