@@ -15,8 +15,8 @@ get_header();
 
 	    <!----- début de section produit ----->
 
-	<section class="contenu w-50">
-		<div>
+	<section class="contenu">
+		<div class="w-50">
 			<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
 		</div>
 		<div>
