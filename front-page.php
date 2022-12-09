@@ -40,7 +40,11 @@ get_header();
     <!----- début section secteur ----->
     <section>
         <div class="container">
-            <h2>secteurs d'activités</h2>
+            <?php if(ICL_LANGUAGE_CODE=='fr'): ?>
+                <h2>secteurs d'activités</h2>
+            <?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
+                <h2>line of business</h2>
+            <?php endif; ?>
         </div>
     </section>
 
