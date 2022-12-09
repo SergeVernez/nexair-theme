@@ -21,11 +21,16 @@ get_header();
 		</div>
 		<div>
 			<h1><?php the_title() ?></h1>
+			<h2>Description</h2>
 			<?php the_content() ?>
-        	<h2><?php the_field("produit") ?></h2>
         </div>
 		<div>
+			<h2>Avantages</h2>
 			<?php the_field("avantage") ?>
+			<div class="liens">
+				<a href="<?php the_field("fiche") ?>" class="btn"></a>
+				<a href="<?php echo home_url() ?>/contact" class="btn"></a>
+			</div>
 		</div>
 		<div>
 			<img src="<?php the_field ("image") ?>" alt="">
