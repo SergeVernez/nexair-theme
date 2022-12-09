@@ -15,7 +15,7 @@ get_header();
 
 	    <!----- début de section produit ----->
 
-	<section class="bg-produit">
+	<section class="contenu">
 		<div>
 			<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
 		</div>
@@ -25,7 +25,7 @@ get_header();
 			<?php the_content() ?>
         </div>
 	</section>
-	<section class="bg-produit">
+	<section class="contenu">
 		<div>
 			<h2>Avantages</h2>
 			<?php the_field("avantage") ?>
