@@ -234,7 +234,7 @@ header form input[type=submit] {
   border-right: 1px solid #000;
 }
 .menucontact h2 {
-  margin: 30px 60px;
+  padding: 30px 60px;
 }
 .menucontact ul {
   height: 100%;
