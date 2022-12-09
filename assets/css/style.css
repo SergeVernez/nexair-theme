@@ -539,6 +539,10 @@ header form input[type=submit] {
   width: 100%;
   text-align: center;
 }
+.home .produits .container > div > img a.btn h3, .home .produits .container > div > div a.btn h3 {
+  color: #263c59;
+  text-align: left;
+}
 .home .realisation {
   background: #263c59;
   padding-top: 60px;
