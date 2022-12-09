@@ -224,6 +224,7 @@ header form input[type=submit] {
   top: 0;
   height: 100%;
   transition: 0.5s linear all;
+  border-right: 1px solid #000;
 }
 .menucontact ul {
   height: 100%;
