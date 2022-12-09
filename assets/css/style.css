@@ -424,6 +424,9 @@ header form input[type=submit] {
 .home .bg-home .bg-black > div h2:last-of-type {
   letter-spacing: 11px;
 }
+.home .bg-home .bg-black > div h2::after {
+  content: "";
+}
 .home .bg-home .bg-black > div p {
   line-height: 150%;
 }
