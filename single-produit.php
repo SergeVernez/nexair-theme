@@ -19,7 +19,7 @@ get_header();
 		<div class="w-50">
 			<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
 		</div>
-		<div>
+		<div class="w-50">
 			<h1><?php the_title() ?></h1>
 			<h2>Description</h2>
 			<?php the_content() ?>
