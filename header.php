@@ -41,7 +41,7 @@
         <!------------------ menu formulaire de contact ---------------->
         <nav class="menucontact">
             <ul>
-                <li><a href="#">Nous contacter</a></li>
+                <li><a href="#">contact</a></li>
             </ul>
         </nav>
         <div class="projet">
