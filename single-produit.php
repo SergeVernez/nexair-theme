@@ -11,7 +11,7 @@ get_header();
 ?>
 
 
-	<main id="primary" class="site-main">
+	<main class="container">
 
 	    <!----- début de section produit ----->
 
@@ -35,12 +35,16 @@ get_header();
 			</div>
 		</div>
 		<div>
-			<img src="<?php the_field ("image") ?>" alt="">
+			<?php 
+				$image = get_field('image');
+				if( !empty( $image ) ): ?>
+					<img src="<?php echo esc_url($image['sizes']['large']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+			<?php endif; ?>
 		</div>
 	</section>
 
 
-	</main><!-- #main -->
+	</mainclass=><!-- #main -->
 
 <?php
 
