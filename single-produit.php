@@ -16,8 +16,11 @@ get_header();
 	    <!----- début de section produit ----->
 
 	<section>
-
-
+		<div>
+			<h1><?php the_title() ?></h1>
+        	<h2><?php the_field("produit") ?></h2>
+        	<?php the_field("avantage") ?>
+		</div>
 	</section>
 <?php the_content() ?>
 
