@@ -694,6 +694,7 @@ header form input[type=submit] {
 
 .single-produit .contenu {
   display: flex;
+  margin: 100px 0;
 }
 .single-produit .w-50 {
   width: 50%;
