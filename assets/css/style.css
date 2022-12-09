@@ -539,33 +539,36 @@ header form input[type=submit] {
   width: 100%;
   text-align: center;
 }
-.home .produits .container > div > img h3, .home .produits .container > div > div h3 {
+.home .produits .container > div > img a.btn:hover, .home .produits .container > div > div a.btn:hover {
+  transform: scale(1.02, 1.02);
+}
+.home .produits .container > div > img a.btn h3, .home .produits .container > div > div a.btn h3 {
   color: #263c59;
   text-align: left;
 }
-.home .realisation {
+.home .produits .realisation {
   background: #263c59;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.home .realisation a {
+.home .produits .realisation a {
   margin-bottom: 3%;
 }
-.home .realisation .container {
+.home .produits .realisation .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.home .realisation .container h2 {
+.home .produits .realisation .container h2 {
   width: 100%;
   color: white;
 }
-.home .realisation .container > a {
+.home .produits .realisation .container > a {
   width: 30%;
   aspect-ratio: 16/9;
   text-decoration: none;
 }
-.home .realisation .container > a div {
+.home .produits .realisation .container > a div {
   background-size: cover;
   height: 100%;
   display: flex;
@@ -574,7 +577,7 @@ header form input[type=submit] {
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
-.home .realisation .container > a div h3 {
+.home .produits .realisation .container > a div h3 {
   width: 90%;
   background: white;
   color: #263c59;
