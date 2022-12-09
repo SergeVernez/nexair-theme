@@ -91,6 +91,10 @@ header {
 	transition: 0.5s linear all;
 	border-right: 1px solid #000;
 
+	h2 {
+		margin-left: 150px;
+	}
+
 	ul {
 		height: 100%;
 		display: flex;
