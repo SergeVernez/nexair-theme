@@ -160,6 +160,7 @@ header {
   box-shadow: none;
 }
 header form {
+  padding: 100px 0;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
