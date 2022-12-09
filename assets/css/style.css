@@ -517,6 +517,7 @@ header form input[type=submit] {
 }
 .home .produits a {
   margin-bottom: 3%;
+  align-items: center;
 }
 .home .produits .container {
   display: flex;
