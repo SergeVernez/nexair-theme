@@ -523,14 +523,13 @@ header form input[type=submit] {
   flex-wrap: wrap;
   gap: 50px;
 }
-.home .produits .container div {
+.home .produits .container > div {
   width: calc(50% - 25px);
   display: flex;
   box-shadow: 0 0 5px grey;
   border-radius: 15px;
 }
-.home .produits .container div img,
-.home .produits .container div div {
+.home .produits .container > div > img, .home .produits .container > div > div {
   width: 50%;
 }
 .home .realisation {
