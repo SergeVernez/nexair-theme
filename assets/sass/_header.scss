@@ -17,10 +17,10 @@ header {
 			border-bottom: 1px solid #000;
 		}
 		textarea {
-			height: 50px;
+			min-height: 50px;
 		}
 		.w50 {
-			width: calc(50% - 20px);
+			width: calc(50% - 30px);
 		}
 		input[type="submit"] {
 			background-color: $vert;

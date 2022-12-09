@@ -173,10 +173,10 @@ header form input:not([type=submit]) {
   border-bottom: 1px solid #000;
 }
 header form textarea {
-  height: 50px;
+  min-height: 50px;
 }
 header form .w50 {
-  width: calc(50% - 20px);
+  width: calc(50% - 30px);
 }
 header form input[type=submit] {
   background-color: #8bb53c;
