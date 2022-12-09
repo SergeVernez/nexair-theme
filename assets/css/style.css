@@ -269,6 +269,9 @@ header form input[type=submit] {
   font-weight: 800;
   color: #8bb53c;
 }
+.menucontact ul li a:hover {
+  transform: scale(1.09, 1.09);
+}
 .menucontact.ouvert {
   right: calc(100% - 70px);
 }
