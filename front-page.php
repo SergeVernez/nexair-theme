@@ -113,8 +113,11 @@ get_header();
                         <img src="<?php the_post_thumbnail_url ('medium') ?>" alt="">
                         <div>
                             <h3> <?php the_title () ?></h3>
-                            <p><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
+                            <p><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>                            
+                        </div>
                             <a href="<?php the_permalink () ?>" class="btn">voir plus</a>
+                        <div>
+
                         </div>
                     </div>
             <?php endwhile;
