@@ -40,13 +40,13 @@
 
         <!------------------ menu formulaire de contact ---------------->
         <nav class="menucontact">
-            <h2>demande de rappel</h2>
             <ul>
                 <li><a href="#">Nous contacter</a></li>
             </ul>
         </nav>
         <div class="projet">
             <h4>Nous contacter</h4>
+            <h2>demande de rappel</h2>
             <?php echo do_shortcode('[contact-form-7 id="56" title="Contact"]' ) ?>
         </div>
     </header>
