@@ -539,7 +539,7 @@ header form input[type=submit] {
   width: 100%;
   text-align: center;
 }
-.home .produits .container > div > img a.btn h3, .home .produits .container > div > div a.btn h3 {
+.home .produits .container > div > img h3, .home .produits .container > div > div h3 {
   color: #263c59;
   text-align: left;
 }
