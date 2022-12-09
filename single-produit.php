@@ -27,6 +27,9 @@ get_header();
 		<div>
 			<?php the_field("avantage") ?>
 		</div>
+		<div>
+			<img src="<?php the_field ("image") ?>" alt="">
+		</div>
 	</section>
 
 
