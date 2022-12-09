@@ -266,11 +266,11 @@ header form input[type=submit] {
   text-align: center;
   text-transform: uppercase;
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 900;
   color: #8bb53c;
 }
 .menucontact ul li a:hover {
-  transform: scale(1.09, 1.09);
+  transform: scale(2, 2);
 }
 .menucontact.ouvert {
   right: calc(100% - 70px);
