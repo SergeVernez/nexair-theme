@@ -17,6 +17,9 @@ get_header();
 
 	<section>
 		<div>
+			<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
+		</div>
+		<div>
 			<h1><?php the_title() ?></h1>
         	<h2><?php the_field("produit") ?></h2>
         	<?php the_field("avantage") ?>
