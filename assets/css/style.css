@@ -164,7 +164,7 @@ header form {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
-  padding: 20px;
+  padding: 40px;
   overflow: auto;
 }
 header form input:not([type=submit]) {
