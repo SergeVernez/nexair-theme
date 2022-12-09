@@ -176,7 +176,9 @@ header form input:not([type=submit]) {
   border-bottom: 1.7px solid #263c59;
 }
 header form textarea {
-  min-height: 500px;
+  min-height: 350px;
+  width: 600px;
+  border-radius: 15px;
 }
 header form .w50 {
   width: calc(50% - 20px);
@@ -224,7 +226,7 @@ header form input[type=submit] {
 
 .menucontact {
   width: 70px;
-  background-color: rgb(236, 236, 236);
+  background-color: rgb(255, 255, 255);
   position: fixed;
   z-index: 1;
   right: 0;
@@ -260,7 +262,8 @@ header form input[type=submit] {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 600;
-  color: #8BB53C;
+  color: #8bb53c;
+  text-shadow: 2px 2px 5px black;
 }
 .menucontact.ouvert {
   right: calc(100% - 70px);
@@ -269,7 +272,7 @@ header form input[type=submit] {
 .projet {
   width: calc(100% - 70px);
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.787);
+  background-color: rgb(233, 233, 233);
   position: fixed;
   left: 100%;
   top: 0;
