@@ -537,6 +537,7 @@ header form input[type=submit] {
 }
 .home .produits .container > div > img a.btn, .home .produits .container > div > div a.btn {
   width: 100%;
+  text-align: center;
 }
 .home .realisation {
   background: #263c59;
