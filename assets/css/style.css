@@ -293,6 +293,7 @@ header form input[type=submit] {
   list-style-type: none;
   width: 100%;
   text-transform: uppercase;
+  margin-left: inherit;
 }
 .bg-footer ul li a {
   display: block;
