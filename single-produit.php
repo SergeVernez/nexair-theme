@@ -23,7 +23,9 @@ get_header();
 			<h1><?php the_title() ?></h1>
 			<?php the_content() ?>
         	<h2><?php the_field("produit") ?></h2>
-        	<?php the_field("avantage") ?>
+        </div>
+		<div>
+			<?php the_field("avantage") ?>
 		</div>
 	</section>
 
