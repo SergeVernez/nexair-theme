@@ -233,6 +233,9 @@ header form input[type=submit] {
   transition: 0.5s linear all;
   border-right: 1px solid #000;
 }
+.menucontact h2 {
+  margin: 30px 60px;
+}
 .menucontact ul {
   height: 100%;
   display: flex;
