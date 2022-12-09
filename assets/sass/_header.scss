@@ -106,7 +106,7 @@ header {
 		}
 	}
 	&.ouvert {
-		left: 0;
+		right: calc(100% - 70px);
 	}
 }
 

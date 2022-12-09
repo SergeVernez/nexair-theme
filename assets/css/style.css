@@ -255,7 +255,7 @@ header form input[type=submit] {
   color: #263c59;
 }
 .menucontact.ouvert {
-  left: 0;
+  right: calc(100% - 70px);
 }
 
 .projet {
