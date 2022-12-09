@@ -10,15 +10,15 @@ header {
 		gap: 20px;
 		justify-content: space-between;
 		padding: 80px 40px;
-		
+		color: #263c59;
+		font-size: 18px;
+		font-weight: 600;
+
 		overflow: auto;
 		input:not([type="submit"]) {
 			width: 100%;
 			border: none;
-			border-bottom: 1,5px solid #263C59;
-			color: #263C59;
-			font-size: 18px;
-			font-weight: 600;
+			border-bottom: 1, 5px solid #263c59;
 		}
 		textarea {
 			min-height: 150px;
