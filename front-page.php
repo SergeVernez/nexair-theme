@@ -80,6 +80,7 @@ get_header();
     <section class="atex">
         <div class="container">
             <div>
+                <h2>spécification atex</h2>
                 <?php the_field('description_atex') ?>
                 <a class="btn" href="#">contactez-moi</a>
             </div>
