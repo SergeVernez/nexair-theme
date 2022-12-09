@@ -197,6 +197,9 @@ header form input[type=submit] {
   font-family: "canaro";
   font-weight: bold;
 }
+header form label {
+  padding: 20px;
+}
 
 .logo {
   width: 15%;
