@@ -10,23 +10,15 @@
 get_header();
 ?>
 
+
 	<main id="primary" class="site-main">
 
-	    <!----- début de section agroalimentaire ----->
-    <section class="image-fond">
-	<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
-        <div class="bg-black">
-            <div class="container">
-                <!----- début TXT ----->
-                <div class="w50">
-                    <h1><?php the_title() ?></h1>
-                    <h2><?php the_field("titre_bandeau") ?></h2>
-                    <?php the_field("texte_bandeau") ?>
-                    </div>
-            </div>
-        </div>
-    </section>
+	    <!----- début de section produit ----->
 
+	<section>
+
+
+	</section>
 <?php the_content() ?>
 
 	</main><!-- #main -->
