@@ -699,6 +699,9 @@ header form input[type=submit] {
 .single-produit .w-70 {
   width: 70%;
 }
+.single-produit .liens {
+  display: flex;
+}
 
 @media screen and (max-width: 768px) {
   .w50 {

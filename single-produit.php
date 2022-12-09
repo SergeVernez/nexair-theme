@@ -44,7 +44,7 @@ get_header();
 	</section>
 
 
-	</mainclass=><!-- #main -->
+	</main><!-- #main -->
 
 <?php
 
