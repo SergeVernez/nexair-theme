@@ -262,6 +262,10 @@ header form input[type=submit] {
   left: 100%;
   top: 0;
   z-index: 1;
+  transition: 0.5s linear all;
+}
+.projet.ouvert {
+  left: 70px;
 }
 
 .appel {

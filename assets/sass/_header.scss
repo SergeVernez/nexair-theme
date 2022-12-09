@@ -114,6 +114,10 @@ header {
 	left: 100%;
 	top: 0;
 	z-index: 1;
+	transition: 0.5s linear all;
+	&.ouvert {
+		left: 70px;
+	}
 }
 
 .appel {
