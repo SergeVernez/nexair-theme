@@ -58,7 +58,7 @@ get_header();
                 while ( $query->have_posts() ) :
                     $query->the_post(); ?>
 
-                     <div class="bloc-secteur" style="background-image:url('<?php the_post_thumbnail_url() ?>')">
+                     <div class="bloc-secteur" style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
                         <h3 class="btn"><?php the_title () ?> </h3>
                         <div class="bloc-contenu">
                             <p><?php the_field("titre_bandeau") ?></p>
@@ -110,7 +110,7 @@ get_header();
             while ( $query->have_posts() ) :
                 $query->the_post(); ?>
                     <div>
-                        <img src="<?php the_post_thumbnail_url () ?>" alt="">
+                        <img src="<?php the_post_thumbnail_url ('medium') ?>" alt="">
                         <div>
                             <h3> <?php the_title () ?></h3>
                             <p><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
@@ -143,7 +143,7 @@ get_header();
             while ( $query->have_posts() ) :
                 $query->the_post(); ?>
                     <a href="<?php the_permalink() ?>">
-                        <div style="background-image:url('<?php the_post_thumbnail_url() ?>')">
+                        <div style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
                             <h3 class="btn"><?php the_title() ?></h3>
                         </div>
                     </a>
