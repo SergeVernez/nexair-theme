@@ -154,7 +154,7 @@ get_header();
             wp_reset_postdata();
              ?> 
             <div>
-                <a href="#" class="btn">voir +</a>
+                <a href="#" class="btn">voir nos réalisations</a>
             </div>
         </div>
     </section>
