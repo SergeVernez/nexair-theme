@@ -113,7 +113,7 @@ get_header();
                         <img src="<?php the_post_thumbnail_url () ?>" alt="">
                         <div>
                             <h3> <?php the_title () ?></h3>
-                            <p> <?php the_excerpt () ?></p>
+                            <p><?php echo wp_trim_words(get_the_excerpt(), 25); ?></p>
                             <a href="<?php the_permalink () ?>" class="btn">voir plus</a>
                         </div>
                     </div>
