@@ -30,13 +30,12 @@
 
         <!----- menu desktop ------>
         <nav class="menu">
-            <ul>
-                <li><a href="#">secteurs</a></li>
-                <li><a href="#">atex</a></li>
-                <li><a href="#">produits</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">réalisations</a></li>
-            </ul>
+            <?php 
+                wp_nav_menu( array $args = array(
+                    'container'			=> "", 
+                    'theme_location'	=> "menu-header",
+                ) ); 
+            ?>
         </nav>
 
         <!------------------ menu formulaire de contact ---------------->
