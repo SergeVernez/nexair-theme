@@ -435,8 +435,6 @@ header form input[type=submit] {
   flex-wrap: wrap;
   gap: 30px;
   /***** Bloc-secteur d'activités *****/
-  /**** Attention manque visuel recyclage ****/
-  /**** Attention manque visuel recyclage ****/
 }
 .home .activites .bloc-secteur {
   width: calc(33.3333333333% - 20px);
@@ -485,33 +483,6 @@ header form input[type=submit] {
   text-align: center;
   color: #263c59;
 }
-.home .activites .agroalimentaire {
-  background-image: url("../img/Agroalimentaire.png");
-}
-.home .activites .mineral {
-  background-image: url("../img/minerale.png");
-}
-.home .activites .recyclage {
-  background-image: url("../img/Agroalimentaire.png");
-}
-.home .activites .caoutchouc {
-  background-image: url("../img/caoutchouc-plastique.png");
-}
-.home .activites .bois {
-  background-image: url("../img/bois.png");
-}
-.home .activites .mettalurgie {
-  background-image: url("../img/metalurgie.png");
-}
-.home .activites .papier {
-  background-image: url("../img/papier-textile.png");
-}
-.home .activites .chimie {
-  background-image: url("../img/chimie-pharma.png");
-}
-.home .activites .auto {
-  background-image: url("../img/Auto-aero.png");
-}
 .home .atex {
   background-color: #263c59;
   color: white;
@@ -540,11 +511,19 @@ header form input[type=submit] {
   border-radius: 15px;
 }
 .home .produits h2 {
-  color: white;
+  color: #263c59;
   padding-top: 60px;
+  width: 100%;
 }
 .home .produits a {
   margin-bottom: 3%;
+}
+.home .produits .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .produits .container div {
+  width: 50%;
 }
 .home .realisation {
   background: #263c59;

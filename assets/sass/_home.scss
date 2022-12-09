@@ -147,42 +147,6 @@
 				color: $bleu;
 			}
 		}
-
-		.agroalimentaire {
-			background-image: url("../img/Agroalimentaire.png");
-		}
-
-		.mineral {
-			background-image: url("../img/minerale.png");
-		}
-		/**** Attention manque visuel recyclage ****/
-		.recyclage {
-			background-image: url("../img/Agroalimentaire.png");
-		}
-		/**** Attention manque visuel recyclage ****/
-		.caoutchouc {
-			background-image: url("../img/caoutchouc-plastique.png");
-		}
-
-		.bois {
-			background-image: url("../img/bois.png");
-		}
-
-		.mettalurgie {
-			background-image: url("../img/metalurgie.png");
-		}
-
-		.papier {
-			background-image: url("../img/papier-textile.png");
-		}
-
-		.chimie {
-			background-image: url("../img/chimie-pharma.png");
-		}
-
-		.auto {
-			background-image: url("../img/Auto-aero.png");
-		}
 	}
 
 	.atex {
@@ -216,11 +180,27 @@
 	.produits {
 		//padding: 60px 0;
 		h2 {
-			color: white;
+			color: $bleu;
 			padding-top: 60px;
+			width: 100%;
 		}
 		a {
 			margin-bottom: 3%;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 50px;
+			div {
+				width: calc(50%-25px);
+				display: flex;
+				box-shadow: 0 0 5px grey;
+				border-radius: 15px;
+				img,
+				div {
+					width: 50%;
+				}
+			}
 		}
 	}
 
