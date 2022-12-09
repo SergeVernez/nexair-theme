@@ -286,7 +286,7 @@ header form input[type=submit] {
 .projet.ouvert {
   left: 70px;
 }
-.projet h2 {
+.projet.ouvert h2 {
   margin-left: 150px;
 }
 
