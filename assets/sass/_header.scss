@@ -73,6 +73,7 @@ header {
 	right: 0;
 	top: 0;
 	height: 100%;
+	transition: 0.5s linear all;
 	ul {
 		height: 100%;
 		display: flex;
@@ -103,6 +104,9 @@ header {
 				color: #263c59;
 			}
 		}
+	}
+	&.ouvert {
+		left: 0;
 	}
 }
 

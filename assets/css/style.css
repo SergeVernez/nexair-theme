@@ -223,6 +223,7 @@ header form input[type=submit] {
   right: 0;
   top: 0;
   height: 100%;
+  transition: 0.5s linear all;
 }
 .menucontact ul {
   height: 100%;
@@ -252,6 +253,9 @@ header form input[type=submit] {
   font-size: 16px;
   font-weight: 400;
   color: #263c59;
+}
+.menucontact.ouvert {
+  left: 0;
 }
 
 .projet {
