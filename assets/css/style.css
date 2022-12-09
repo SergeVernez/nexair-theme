@@ -533,7 +533,7 @@ header form input[type=submit] {
 }
 .home .produits .container > div > img, .home .produits .container > div > div {
   width: 50%;
-  padding: 10px;
+  padding: 20px;
 }
 .home .produits .container > div > img a.btn, .home .produits .container > div > div a.btn {
   width: 100%;
