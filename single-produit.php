@@ -15,7 +15,7 @@ get_header();
 
 	    <!----- début de section produit ----->
 
-	<section>
+	<section class="bg-produit">
 		<div>
 			<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
 		</div>

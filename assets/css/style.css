@@ -690,6 +690,11 @@ header form input[type=submit] {
   padding: 60px 0;
 }
 
+.single-produit .bg-produit {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 @media screen and (max-width: 768px) {
   .w50 {
     width: 100%;
