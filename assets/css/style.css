@@ -173,7 +173,7 @@ header form input:not([type=submit]) {
   border-bottom: 1px solid #000;
 }
 header form textarea {
-  min-height: 50px;
+  min-height: 150px;
 }
 header form .w50 {
   width: calc(50% - 20px);
