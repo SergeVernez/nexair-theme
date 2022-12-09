@@ -31,7 +31,7 @@
         <!----- menu desktop ------>
         <nav class="menu">
             <?php 
-                wp_nav_menu( array $args = array(
+                wp_nav_menu( array(
                     'container'			=> "", 
                     'theme_location'	=> "menu-header",
                 ) ); 
