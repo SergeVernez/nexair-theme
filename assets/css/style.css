@@ -180,9 +180,10 @@ header form textarea {
   width: 100%;
   border-radius: 15px;
   box-shadow: 2px 2px 5px black;
-  padding: 1.25rem;
+  padding: 1.2rem;
   border: none;
   font-size: 1.2rem;
+  margin-top: 1.2rem;
 }
 header form .w50 {
   width: calc(50% - 20px);
