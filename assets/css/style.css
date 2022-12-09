@@ -540,7 +540,7 @@ header form input[type=submit] {
   text-align: center;
 }
 .home .produits .container > div > img a.btn:hover, .home .produits .container > div > div a.btn:hover {
-  transform: scale(1.07, 1.07);
+  transform: scale(1.08, 1.08);
 }
 .home .produits .container > div > img h3, .home .produits .container > div > div h3 {
   color: #263c59;
