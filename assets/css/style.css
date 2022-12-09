@@ -528,9 +528,12 @@ header form input[type=submit] {
   display: flex;
   box-shadow: 0 0 5px grey;
   border-radius: 15px;
+  align-items: start;
+  overflow: hidden;
 }
 .home .produits .container > div > img, .home .produits .container > div > div {
   width: 50%;
+  padding: 10px;
 }
 .home .realisation {
   background: #263c59;
