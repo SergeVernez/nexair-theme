@@ -168,6 +168,7 @@ header form {
   color: #263c59;
   font-size: 18px;
   font-weight: 600;
+  box-shadow: 2px 2px 5px black;
   overflow: auto;
 }
 header form input:not([type=submit]) {
@@ -263,7 +264,6 @@ header form input[type=submit] {
   font-size: 20px;
   font-weight: 600;
   color: #8bb53c;
-  text-shadow: 2px 2px 5px black;
 }
 .menucontact.ouvert {
   right: calc(100% - 70px);

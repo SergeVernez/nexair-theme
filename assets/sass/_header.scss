@@ -13,6 +13,7 @@ header {
 		color: #263c59;
 		font-size: 18px;
 		font-weight: 600;
+		box-shadow: 2px 2px 5px black;
 
 		overflow: auto;
 		input:not([type="submit"]) {
@@ -114,7 +115,6 @@ header {
 				font-size: 20px;
 				font-weight: 600;
 				color: #8bb53c;
-				text-shadow: 2px 2px 5px black;;
 			}
 		}
 	}
