@@ -696,6 +696,9 @@ header form input[type=submit] {
 .single-produit .w-50 {
   width: 50%;
 }
+.single-produit .w-70 {
+  width: 70%;
+}
 
 @media screen and (max-width: 768px) {
   .w50 {
