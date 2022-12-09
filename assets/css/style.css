@@ -180,7 +180,7 @@ header form textarea {
   width: 100%;
   border-radius: 15px;
   box-shadow: 2px 2px 5px black;
-  padding: 100px;
+  padding: 1.25rem;
   border: none;
   font-size: 1.2rem;
 }
