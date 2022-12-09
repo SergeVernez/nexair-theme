@@ -13,7 +13,7 @@ header {
 		color: #263c59;
 		font-size: 18px;
 		font-weight: 600;
-		box-shadow: 2px 2px 5px black;
+		
 
 		overflow: auto;
 		input:not([type="submit"]) {
@@ -22,9 +22,10 @@ header {
 			border-bottom: 1.7px solid #263c59;
 		}
 		textarea {
-			min-height: 350px;
-			width: 600px;
+			min-height: 300px;
+			width: 90%;
 			border-radius: 15px;
+			box-shadow: 2px 2px 5px black;
 		}
 		.w50 {
 			width: calc(50% - 20px);
@@ -78,7 +79,7 @@ header {
 
 .menucontact {
 	width: 70px;
-	background-color: rgb(255, 255, 255);
+	background-color: white;
 	position: fixed;
 	z-index: 1;
 	right: 0;
@@ -126,7 +127,7 @@ header {
 .projet {
 	width: calc(100% - 70px);
 	height: 100%;
-	background-color: rgb(255, 255, 255);
+	background-color: white;
 	position: fixed;
 	left: 100%;
 	top: 0;
