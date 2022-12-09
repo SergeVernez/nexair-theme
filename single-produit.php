@@ -26,7 +26,7 @@ get_header();
         </div>
 	</section>
 	<section class="contenu">
-		<div>
+		<div class="w-70">
 			<h2>Avantages</h2>
 			<?php the_field("avantage") ?>
 			<div class="liens">
