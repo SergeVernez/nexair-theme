@@ -240,9 +240,6 @@ header form input[type=submit] {
   transition: 0.5s linear all;
   border-right: 1px solid #000;
 }
-.menucontact h2 {
-  margin-left: 150px;
-}
 .menucontact ul {
   height: 100%;
   display: flex;
@@ -288,6 +285,9 @@ header form input[type=submit] {
 }
 .projet.ouvert {
   left: 70px;
+}
+.projet h2 {
+  margin-left: 150px;
 }
 
 .appel {
