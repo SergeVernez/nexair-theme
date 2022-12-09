@@ -288,7 +288,7 @@ header form input[type=submit] {
 }
 .projet.ouvert h2 {
   margin: 20px 150px;
-  padding: none;
+  padding: 0;
 }
 
 .appel {
