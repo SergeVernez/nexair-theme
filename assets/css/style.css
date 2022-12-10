@@ -231,7 +231,7 @@ header form input[type=submit] {
 
 .menucontact {
   width: 70px;
-  background-color: rgba(255, 255, 255, 0.943);
+  background-color: rgba(255, 255, 255, 0.886);
   position: fixed;
   z-index: 1;
   right: 0;
