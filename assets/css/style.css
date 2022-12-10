@@ -171,7 +171,8 @@ header form {
   overflow: auto;
 }
 header form input {
-  padding: 50px;
+  padding: 25px;
+  border: none;
 }
 header form input:not([type=submit]) {
   width: 100%;
