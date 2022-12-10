@@ -171,10 +171,11 @@ header form {
   overflow: auto;
 }
 header form input {
-  padding: 20px;
+  padding: 18px;
   font-size: 18px;
   background: whitesmoke;
   border: none;
+  border-radius: 15;
 }
 header form input:not([type=submit]) {
   width: 100%;
