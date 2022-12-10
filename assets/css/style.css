@@ -170,7 +170,7 @@ header form {
   font-weight: 600;
   overflow: auto;
 }
-header form label {
+header form input {
   padding: 50px;
 }
 header form input:not([type=submit]) {
