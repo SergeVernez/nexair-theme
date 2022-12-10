@@ -14,6 +14,10 @@ header {
 		font-size: 18px;
 		font-weight: 600;
 
+		label {
+			padding: 50px;
+		}
+
 		overflow: auto;
 		input:not([type="submit"]) {
 			width: 100%;

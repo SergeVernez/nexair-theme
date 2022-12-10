@@ -170,6 +170,9 @@ header form {
   font-weight: 600;
   overflow: auto;
 }
+header form label {
+  padding: 50px;
+}
 header form input:not([type=submit]) {
   width: 100%;
   border: none;
