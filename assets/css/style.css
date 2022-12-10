@@ -182,7 +182,7 @@ header form input:not([type=submit]) {
   border-radius: 15px;
 }
 header form textarea {
-  min-height: 200px;
+  min-height: 180px;
   width: 100%;
   border-radius: 15px;
   box-shadow: 2px 2px 5px black;
