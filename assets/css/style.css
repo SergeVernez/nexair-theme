@@ -180,7 +180,6 @@ header form input {
 header form input:not([type=submit]) {
   width: 100%;
   border: none;
-  border-bottom: 1.7px solid #263c59;
   border-radius: 15px;
 }
 header form textarea {
