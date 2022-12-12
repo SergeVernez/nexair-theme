@@ -2,7 +2,7 @@ jQuery(document).ready(function ($) {
 	if ($(window).width() < 767) {
 		$("#unite").unitegallery({
 			gallery_theme: "compact",
-			slider_scale_mode_media: "down",
+			slider_scale_mode: "fit",
 			slider_enable_text_panel: true,
 			strippanel_enable_handle: false,
 			strippanel_background_color: "transparent",
@@ -16,7 +16,7 @@ jQuery(document).ready(function ($) {
 	} else {
 		$("#unite").unitegallery({
 			gallery_theme: "compact",
-			slider_scale_mode_media: "down",
+			slider_scale_mode: "fit",
 			slider_enable_text_panel: true,
 			strippanel_enable_handle: false,
 			strippanel_background_color: "transparent",
