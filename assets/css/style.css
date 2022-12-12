@@ -553,7 +553,7 @@ header form input[type=submit] {
   flex-wrap: wrap;
   gap: 30px;
 }
-.home .realisation .btn:last-of-type {
+.home .realisation div:last-of-type {
   margin: 0 auto;
 }
 .home .atex {
