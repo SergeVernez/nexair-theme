@@ -204,6 +204,7 @@ header form input[type=submit] {
   font-family: "canaro";
   font-weight: bold;
   margin-top: -8px;
+  margin: 0 auto;
 }
 
 .logo {
@@ -279,6 +280,7 @@ header form input[type=submit] {
 }
 .menucontact ul li a:hover {
   transform: scale(1.2, 1.2);
+  transition: 0.25s linear all;
 }
 .menucontact.ouvert {
   right: calc(100% - 70px);
