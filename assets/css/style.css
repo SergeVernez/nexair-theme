@@ -729,6 +729,9 @@ header form input[type=submit] {
 .single-secteur_activite .image-fond .bg-black h2:last-of-type {
   letter-spacing: 11px;
 }
+.single-secteur_activite .image-fond .bg-black h2::after {
+  content: "";
+}
 .single-secteur_activite .image-fond .bg-black p {
   line-height: 150%;
 }

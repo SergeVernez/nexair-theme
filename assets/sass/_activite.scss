@@ -79,7 +79,8 @@
 					letter-spacing: 11px;
 				}
 				&::after {
-						content: "";
+					content: "";
+				}
 			}
 			p {
 				line-height: 150%;
@@ -92,7 +93,7 @@
 	.btn {
 		padding: 5px 60px;
 	}
-	
+
 	.wp-block-group {
 		padding: 60px 0;
 	}
