@@ -542,14 +542,19 @@ header form input[type=submit] {
 }
 .home .realisation {
   background-color: #263c59;
+  padding: 60px 0;
 }
 .home .realisation h2 {
   color: white;
+  width: 100%;
 }
 .home .realisation .container {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+.home .realisation .btn:last-of-type {
+  margin: 0 auto;
 }
 .home .atex {
   background-color: #263c59;
