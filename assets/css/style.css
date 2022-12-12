@@ -664,7 +664,7 @@ header form input[type=submit] {
   width: 100%;
 }
 .single-realisations .contenu article.desc > * {
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 .single-realisations .ug-gallery-wrapper > * {
   border-radius: 15px;
