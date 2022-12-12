@@ -1,0 +1,45 @@
+.post-type-archive-produit {
+	.produits {
+		//padding: 60px 0;
+		h2 {
+			color: $bleu;
+			padding-top: 60px;
+			width: 100%;
+		}
+		a {
+			margin-bottom: 3%;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 50px;
+			& > div {
+				width: calc(50% - 25px);
+				display: flex;
+				box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+				border-radius: 15px;
+				align-items: start;
+				overflow: hidden;
+				& > img,
+				& > div {
+					width: 50%;
+					padding: 20px;
+					a.btn {
+						width: 100%;
+						text-align: center;
+						&:hover {
+							transform: scale(1.08, 1.08);
+						}
+					}
+					h3 {
+						color: $bleu;
+						text-align: left;
+					}
+				}
+			}
+			& > a {
+				margin: 20px auto 60px auto;
+			}
+		}
+	}
+}

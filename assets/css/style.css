@@ -766,6 +766,46 @@ header form input[type=submit] {
   display: flex;
 }
 
+.post-type-archive-produit .produits h2 {
+  color: #263c59;
+  padding-top: 60px;
+  width: 100%;
+}
+.post-type-archive-produit .produits a {
+  margin-bottom: 3%;
+}
+.post-type-archive-produit .produits .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.post-type-archive-produit .produits .container > div {
+  width: calc(50% - 25px);
+  display: flex;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  align-items: start;
+  overflow: hidden;
+}
+.post-type-archive-produit .produits .container > div > img, .post-type-archive-produit .produits .container > div > div {
+  width: 50%;
+  padding: 20px;
+}
+.post-type-archive-produit .produits .container > div > img a.btn, .post-type-archive-produit .produits .container > div > div a.btn {
+  width: 100%;
+  text-align: center;
+}
+.post-type-archive-produit .produits .container > div > img a.btn:hover, .post-type-archive-produit .produits .container > div > div a.btn:hover {
+  transform: scale(1.08, 1.08);
+}
+.post-type-archive-produit .produits .container > div > img h3, .post-type-archive-produit .produits .container > div > div h3 {
+  color: #263c59;
+  text-align: left;
+}
+.post-type-archive-produit .produits .container > a {
+  margin: 20px auto 60px auto;
+}
+
 @media screen and (max-width: 768px) {
   body {
     width: 100%;
