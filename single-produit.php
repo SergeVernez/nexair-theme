@@ -31,7 +31,7 @@ get_header();
 			<?php the_field("avantage") ?>
 			<div class="liens">
 				<a href="<?php the_field("fiche_produit") ?>" target="_blank" class="btn">fiche</a>
-				<a href="<?php echo home_url() ?>/contact" class="btn btnContact">contact</a>
+				<a href="#" class="btn btnContact">contact</a>
 			</div>
 		</div>
 		<div>
