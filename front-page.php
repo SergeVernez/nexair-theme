@@ -30,7 +30,7 @@ get_header();
                             ventilation, transport pneumatique ou nettoyage centralisé,</strong> avec un seul et même
                         objectif : <strong> fournir une solution sur mesure et un accompagnement<br> sur le long
                             terme.</strong></p>
-                    <a href="#" class="btn">Voir nos réalisations</a>
+                    <a href="#realisations" class="btn">Voir nos réalisations</a>
                     <h2>Audit - étude - conseil</h2>
                 </div>
             </div>
@@ -86,7 +86,7 @@ get_header();
                 <h2>Atex specification</h2>
             <?php endif; ?>
                 <?php the_field('description_atex') ?>
-                <a class="btn" href="#">contactez-moi</a>
+                <a class="btn btnContact" href="#">contactez-moi</a>
             </div>
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/img atex copie.png" alt="" />
@@ -170,7 +170,7 @@ get_header();
             wp_reset_postdata();
              ?> 
             <div>
-                <a href="#" class="btn">voir nos réalisations</a>
+                <a href="#" class="btn btnContact">Nous contacter</a>
             </div>
         </div>
     </section>

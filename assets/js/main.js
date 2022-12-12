@@ -10,7 +10,7 @@ jQuery(document).ready(function ($) {
 		strip_space_between_thumbs: 15,
 		gallery_height: 800,
 	});
-	$(".menucontact").click(function () {
+	$(".menucontact,.btnContact").click(function () {
 		$(this).toggleClass("ouvert");
 		$(".projet").toggleClass("ouvert");
 	});
