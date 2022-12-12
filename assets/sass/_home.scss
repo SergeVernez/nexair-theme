@@ -197,6 +197,12 @@
 				border-radius: 15px;
 			}
 		}
+		.btn {
+			display: inline-block;
+			&:last-of-type {
+				margin-left: 30px;
+			}
+		}
 	}
 
 	.produits {
