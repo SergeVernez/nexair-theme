@@ -86,8 +86,10 @@ get_header();
                 <h2>Atex specification</h2>
             <?php endif; ?>
                 <?php the_field('description_atex') ?>
+                <div>
                 <a class="btn btnContact" href="#">contactez-moi</a>
                 <a class="btn btnContact" href="https://www.inrs.fr/risques/explosion/zonage-marquage-materiel-atex.html">en savoir plus</a>
+                </div>
             </div>
             <div>
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/img atex copie.png" alt="" />
