@@ -199,10 +199,11 @@ header form input[type=submit] {
   background-color: #8bb53c;
   border: none;
   box-shadow: none;
-  padding: 20px;
+  padding: 15px;
   color: white;
   font-family: "canaro";
   font-weight: bold;
+  margin-top: -15px;
 }
 
 .logo {
