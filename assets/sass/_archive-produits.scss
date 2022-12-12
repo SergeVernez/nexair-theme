@@ -1,6 +1,11 @@
 .post-type-archive-produit {
 	.produits {
 		padding: 60px 0;
+
+		h1 {
+			width: 100%;
+		}
+
 		h2 {
 			color: $bleu;
 			padding-top: 60px;
