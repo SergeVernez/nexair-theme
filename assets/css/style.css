@@ -764,6 +764,15 @@ header form input[type=submit] {
   padding: 60px 0;
 }
 
+.single-produit h1 {
+  text-transform: uppercase;
+  padding: 0;
+  font-weight: 600;
+  font-size: 50px;
+  color: #263c59;
+  letter-spacing: 5px;
+  width: 100%;
+}
 .single-produit .contenu {
   display: flex;
   margin: 100px 0;
