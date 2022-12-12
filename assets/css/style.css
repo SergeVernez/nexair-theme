@@ -771,6 +771,8 @@ header form input[type=submit] {
 }
 .post-type-archive-produit .produits h1 {
   width: 100%;
+  color: #263c59;
+  padding-top: 60px;
 }
 .post-type-archive-produit .produits h2 {
   color: #263c59;
