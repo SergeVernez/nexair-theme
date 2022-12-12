@@ -13,6 +13,7 @@ get_header();
 	<main>
 		<section class="bg-realisation" style="background-image:url('<?php get_the_post_thumbnail_url() ?>')">
 			<div class="container">
+				<p><?php bcn_display() ?></p>
 				<h1><?php the_title() ?></h1>
 			</div>
 		</section>
