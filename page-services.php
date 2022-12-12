@@ -16,33 +16,27 @@ get_header();
 ?>
 
 	<main>
+
+
     <section class="page-id-270">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home.png" alt="">
+	<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
         <div class="bg-black">
             <div class="container">
-                <!----- début TXT+CTA ----->
+                <!----- début TXT ----->
                 <div class="w50">
-                    <h1>service client</h1>
-                    <h2>maintenir, d’améliorer, de réparer ou remplacer les caractéristiques ou éléments de vos installations, qu’elle qu’en soit l’origine.</h2>
-                    <p><strong>Nous vous suggérons :
-
-Diagnostic des problèmes rencontrés.
-Dépannage dans les meilleurs délais.
-Visite de contrôle préventive avec ou sans action corrective.
-Intervention curative programmée.
-Contrat de maintenance
-
-Mais aussi les pièces détachées :
-
-Mannequins de manches, manches, poches & cartouches filtrantes.
-Séquenceurs, électrovannes…</strong></p>
-                    <a href="#realisations" class="btn">Voir nos réalisations</a>
-                    <h2>Audit - étude - conseil</h2>
-                </div>
+                    <p class="arianne"><?php bcn_display() ?></p>
+                    <h1><?php the_title() ?></h1>
+                    <h2><?php the_field("titre_bandeau") ?></h2>
+                    <?php the_field("texte_bandeau") ?>
+                    </div>
             </div>
         </div>
     </section>
+
+<?php the_content() ?>
+
 	</main><!-- #main -->
 
 <?php
+
 get_footer();

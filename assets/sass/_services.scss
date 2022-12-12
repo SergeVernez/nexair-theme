@@ -1,13 +1,13 @@
 .page-id-270 {
 	
+.image-fond {
 		min-height: calc(100vh - 75px);
 		color: white;
 		position: relative;
 		overflow: hidden;
-		margin-bottom: 60px;
-		// background-size: cover;
-		// background-image: url(../img/home.png);
-		// background-position-x: right;
+		// margin-bottom: 60px;
+		background-size: cover;
+		background-position-x: right;
 
 		img {
 			position: absolute;
@@ -62,31 +62,40 @@
 					padding: 50px 0;
 					font-weight: 500;
 					letter-spacing: 7px;
-					&::first-line {
-						font-size: 75px;
+					font-size: 70px;
+					:last-of-type {
+						font-size: 70px;
 					}
 				}
-				h2 {
-					color: white;
-					padding-bottom: 15px;
-					text-align: left;
-					letter-spacing: 3px;
-					&:first-of-type {
-						padding-top: 0;
-					}
-					&:last-of-type {
-						letter-spacing: 11px;
-					}
-					&::after {
-						content: "";
-					}
+			}
+			h2 {
+				color: white;
+				padding-bottom: 15px;
+				text-align: left;
+				letter-spacing: 3px;
+				&:first-of-type {
+					padding-top: 0;
 				}
-				p {
-					line-height: 150%;
+				&:last-of-type {
+					letter-spacing: 11px;
 				}
-				a {
-					margin-bottom: 30px;
+				&::after {
+					content: "";
 				}
+			}
+			p {
+				line-height: 150%;
 			}
 		}
 	}
+	.wp-block-buttons {
+		margin-top: 30px;
+	}
+	.btn {
+		padding: 5px 60px;
+	}
+
+	.wp-block-group {
+		padding: 60px 0;
+	}
+}
