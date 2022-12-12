@@ -15,11 +15,9 @@
 get_header();
 ?>
 
-	<main>
-
-
-    <section class="page-id-270">
-	<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
+<main>
+    <section class="image-fond">
+		<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT ----->
@@ -28,14 +26,37 @@ get_header();
                     <h1><?php the_title() ?></h1>
                     <h2><?php the_field("titre_bandeau") ?></h2>
                     <?php the_field("texte_bandeau") ?>
-                    </div>
+					<?php the_content() ?>
+				</div>
             </div>
         </div>
-    </section>
+    </section>.
+	<section>
+		<div class="container">
+			<p class="accroche"><?php the_field('accroche') ?></p>
+			<?php the_field('texte_accroche') ?>
+		</div>
+	</section>
+	<section class="bleu">
+		<div class="container">
+			<h2><?php the_field('equipe') ?></h2>
+			<?php the_field('texte_accroche') ?>
+			<a href="#" class="btn btnContact">Nous contacter</a>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<h2><?php the_field('projet') ?></h2>
+			<?php the_field('texte_projet') ?>
+			<a href="#" class="btn btnContact">Nous contacter</a>
+		</div>
+	</section>
+		<section class="bleu">
+		<div class="container">
 
-<?php the_content() ?>
-
-	</main><!-- #main -->
+		</div>
+	</section>
+</main><!-- #main -->
 
 <?php
 

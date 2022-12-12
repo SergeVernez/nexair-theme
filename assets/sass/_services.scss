@@ -1,13 +1,10 @@
 .page-id-270 {
-	
-.image-fond {
+	.image-fond {
 		min-height: calc(100vh - 75px);
 		color: white;
 		position: relative;
 		overflow: hidden;
 		// margin-bottom: 60px;
-		background-size: cover;
-		background-position-x: right;
 
 		img {
 			position: absolute;
@@ -88,14 +85,11 @@
 			}
 		}
 	}
-	.wp-block-buttons {
-		margin-top: 30px;
-	}
-	.btn {
-		padding: 5px 60px;
-	}
-
-	.wp-block-group {
+	section {
 		padding: 60px 0;
+		&.bleu {
+			background-color: $bleu;
+			color: white;
+		}
 	}
 }
