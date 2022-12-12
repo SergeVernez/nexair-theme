@@ -504,8 +504,9 @@ header form input[type=submit] {
   top: -20px;
   left: -4px;
 }
-.page-id-270 section .charte h3 {
+.page-id-270 section .charte > div h3 {
   text-align: left;
+  font-size: 20px;
 }
 
 .home .bg-home {
