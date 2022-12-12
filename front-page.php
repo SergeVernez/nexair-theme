@@ -39,7 +39,7 @@ get_header();
 
     <!----- début section secteur ----->
     <section>
-        <div class="container">
+        <div class="container" id="activites">
             <?php if(ICL_LANGUAGE_CODE=='fr'): ?>
                 <h2>secteurs d'activités</h2>
             <?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
@@ -48,7 +48,7 @@ get_header();
         </div>
     </section>
 
-    <section class="container activites" id="activites">
+    <section class="container activites">
         <?php
             // WP_Query arguments
             $args = array(
