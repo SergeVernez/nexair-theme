@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
 		thumb_height: 120,
 		thumb_fixed_size: false,
 		strip_space_between_thumbs: 15,
-		gallery_height: 800,
+		gallery_min_height: 800,
 		gallery_width: 3000,
 	});
 	$(".menucontact,.btnContact").click(function () {
