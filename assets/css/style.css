@@ -119,6 +119,15 @@ ol a {
   color: inherit;
 }
 
+.arianne {
+  padding-bottom: 30px;
+}
+.arianne a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 /* style des balises html */
 @font-face {
   font-family: "Canaro";
