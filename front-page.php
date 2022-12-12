@@ -152,11 +152,18 @@ get_header();
             // The Loop
             while ( $query->have_posts() ) :
                 $query->the_post(); ?>
-                    <a href="<?php the_permalink() ?>">
+                    <div class="bloc-activites" style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
+                            <h3 class="btn"><?php the_title () ?> </h3>
+                            <div class="bloc-contenu">
+                                <p><?php the_field("titre_bandeau") ?></p>
+                                <a href="<?php the_permalink () ?>" class="btn">En savoir +</a>
+                            </div>
+                        </div>
+                    <!-- <a href="<?php the_permalink() ?>">
                         <div style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
                             <h3 class="btn"><?php the_title() ?></h3>
                         </div>
-                    </a>
+                    </a> -->
             <?php endwhile;
 
             // Restore original Post Data

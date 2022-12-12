@@ -468,13 +468,17 @@ header form input[type=submit] {
 .home .bg-home .bg-black > div a {
   margin-bottom: 30px;
 }
-.home .activites {
+.home .activites,
+.home .realisation {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   /***** Bloc-secteur d'activités *****/
 }
-.home .activites .bloc-secteur {
+.home .activites .bloc-secteur,
+.home .activites .bloc-activites,
+.home .realisation .bloc-secteur,
+.home .realisation .bloc-activites {
   width: calc(33.3333333333% - 20px);
   aspect-ratio: 16/9;
   display: flex;
@@ -488,24 +492,39 @@ header form input[type=submit] {
   border-radius: 15px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
-.home .activites .bloc-secteur h3 {
+.home .activites .bloc-secteur h3,
+.home .activites .bloc-activites h3,
+.home .realisation .bloc-secteur h3,
+.home .realisation .bloc-activites h3 {
   font-weight: 600;
   font-size: 16px;
   background-color: #fff;
   color: #263c59;
 }
-.home .activites .bloc-secteur:hover .bloc-contenu {
+.home .activites .bloc-secteur:hover .bloc-contenu,
+.home .activites .bloc-activites:hover .bloc-contenu,
+.home .realisation .bloc-secteur:hover .bloc-contenu,
+.home .realisation .bloc-activites:hover .bloc-contenu {
   top: 0;
 }
-.home .activites .bloc-secteur .btn {
+.home .activites .bloc-secteur .btn,
+.home .activites .bloc-activites .btn,
+.home .realisation .bloc-secteur .btn,
+.home .realisation .bloc-activites .btn {
   display: block;
   width: 100%;
   text-align: center;
 }
-.home .activites .bloc-secteur .btn:hover {
+.home .activites .bloc-secteur .btn:hover,
+.home .activites .bloc-activites .btn:hover,
+.home .realisation .bloc-secteur .btn:hover,
+.home .realisation .bloc-activites .btn:hover {
   transform: scale(1.09, 1.09);
 }
-.home .activites .bloc-secteur .bloc-contenu {
+.home .activites .bloc-secteur .bloc-contenu,
+.home .activites .bloc-activites .bloc-contenu,
+.home .realisation .bloc-secteur .bloc-contenu,
+.home .realisation .bloc-activites .bloc-contenu {
   background-color: rgba(255, 255, 255, 0.85);
   position: absolute;
   padding: 18px;
@@ -586,44 +605,6 @@ header form input[type=submit] {
 }
 .home .produits .container > a {
   margin: 20px auto 60px auto;
-}
-.home .realisation {
-  background: #263c59;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.home .realisation a {
-  margin-bottom: 3%;
-}
-.home .realisation .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.home .realisation .container h2 {
-  width: 100%;
-  color: white;
-}
-.home .realisation .container > a {
-  width: 30%;
-  aspect-ratio: 16/9;
-  text-decoration: none;
-}
-.home .realisation .container > a div {
-  background-size: cover;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
-}
-.home .realisation .container > a div h3 {
-  width: 90%;
-  background: white;
-  color: #263c59;
-  font-weight: 600;
-  font-size: 15px;
 }
 
 .single-realisations .bg-realisation {

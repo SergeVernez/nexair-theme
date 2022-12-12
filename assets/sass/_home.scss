@@ -91,13 +91,15 @@
 		}
 	}
 
-	.activites {
+	.activites,
+	.realisation {
 		display: flex;
 		flex-wrap: wrap;
 		gap: 30px;
 
 		/***** Bloc-secteur d'activités *****/
-		.bloc-secteur {
+		.bloc-secteur,
+		.bloc-activites {
 			width: calc((100% / 3) - 20px);
 			aspect-ratio: 16 / 9;
 			display: flex;
@@ -224,44 +226,44 @@
 		}
 	}
 
-	.realisation {
-		background: $bleu;
-		padding-top: 60px;
-		padding-bottom: 60px;
-		a {
-			margin-bottom: 3%;
-		}
-		.container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			h2 {
-				width: 100%;
-				color: white;
-			}
-			& > a {
-				width: 30%;
-				aspect-ratio: 16 / 9;
-				text-decoration: none;
+	// .realisation {
+	// 	background: $bleu;
+	// 	padding-top: 60px;
+	// 	padding-bottom: 60px;
+	// 	a {
+	// 		margin-bottom: 3%;
+	// 	}
+	// 	.container {
+	// 		display: flex;
+	// 		flex-wrap: wrap;
+	// 		justify-content: space-between;
+	// 		h2 {
+	// 			width: 100%;
+	// 			color: white;
+	// 		}
+	// 		& > a {
+	// 			width: 30%;
+	// 			aspect-ratio: 16 / 9;
+	// 			text-decoration: none;
 
-				div {
-					background-size: cover;
-					height: 100%;
-					display: flex;
-					justify-content: center;
-					align-items: center;
-					border-radius: 15px;
-					box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+	// 			div {
+	// 				background-size: cover;
+	// 				height: 100%;
+	// 				display: flex;
+	// 				justify-content: center;
+	// 				align-items: center;
+	// 				border-radius: 15px;
+	// 				box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 
-					h3 {
-						width: 90%;
-						background: white;
-						color: #263c59;
-						font-weight: 600;
-						font-size: 15px;
-					}
-				}
-			}
-		}
-	}
+	// 				h3 {
+	// 					width: 90%;
+	// 					background: white;
+	// 					color: #263c59;
+	// 					font-weight: 600;
+	// 					font-size: 15px;
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
 }
