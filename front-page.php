@@ -48,7 +48,7 @@ get_header();
         </div>
     </section>
 
-    <section class="container activites">
+    <section class="container activites" id="activites">
         <?php
             // WP_Query arguments
             $args = array(
@@ -77,7 +77,7 @@ get_header();
     </section>
 
     <!----- début section Atex ----->
-    <section class="atex">
+    <section class="atex" id="atex">
         <div class="container">
             <div>
                 <?php if(ICL_LANGUAGE_CODE=='fr'): ?>
@@ -133,7 +133,7 @@ get_header();
     </section>
 
     <!----- début section réalisation/galerie ----->
-    <section class="realisation">
+    <section class="realisation" id="realisations">
         <div class="container">
              <?php if(ICL_LANGUAGE_CODE=='fr'): ?>
                 <h2>Nos réalisations</h2>
@@ -152,7 +152,7 @@ get_header();
             // The Loop
             while ( $query->have_posts() ) :
                 $query->the_post(); ?>
-                    <div class="bloc-activites" style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
+                    <div class="bloc-realisation" style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
                             <h3 class="btn"><?php the_title () ?> </h3>
                             <div class="bloc-contenu">
                                 <p><?php the_field("titre_bandeau") ?></p>
