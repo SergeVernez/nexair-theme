@@ -16,7 +16,7 @@ get_header();
 ?>
 
 	<main>
-    <section class="bg-home">
+    <section class="bg-service">
         <img src="<?php echo get_template_directory_uri() ?>/assets/img/home.png" alt="">
         <div class="bg-black">
             <div class="container">
