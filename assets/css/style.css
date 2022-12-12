@@ -766,6 +766,9 @@ header form input[type=submit] {
   display: flex;
 }
 
+.post-type-archive-produit .produits {
+  padding: 60px 0;
+}
 .post-type-archive-produit .produits h2 {
   color: #263c59;
   padding-top: 60px;
