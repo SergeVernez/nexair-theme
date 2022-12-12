@@ -14,8 +14,9 @@ get_header();
 		<section class="produits">
 			<div class="container">
 				<?php if(ICL_LANGUAGE_CODE=='fr'): ?>
+					<p class="arianne"><?php bcn_display() ?></p>
 					<h1>tous nos produits</h1>
-				<p class="arianne"><?php bcn_display() ?></p>
+				
 				<?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
 					<h2>Our products</h2>
 				<?php endif; ?>
