@@ -22,13 +22,20 @@ get_header();
             <div class="container">
                 <!----- début TXT+CTA ----->
                 <div class="w50">
-                    <h1>ingénierie traitement de l'air</h1>
-                    <h2>20 ans d’expérience...</h2>
-                    <p><strong>...Basée dans le Nord de la France à Templemars</strong>,<br>Nexair vous accompagne, de
-                        l’étude à la mise en oeuvre de vos installations, pour tout projet de <strong>dépoussiérage,
-                            ventilation, transport pneumatique ou nettoyage centralisé,</strong> avec un seul et même
-                        objectif : <strong> fournir une solution sur mesure et un accompagnement<br> sur le long
-                            terme.</strong></p>
+                    <h1>service client</h1>
+                    <h2>maintenir, d’améliorer, de réparer ou remplacer les caractéristiques ou éléments de vos installations, qu’elle qu’en soit l’origine.</h2>
+                    <p><strong>Nous vous suggérons :
+
+Diagnostic des problèmes rencontrés.
+Dépannage dans les meilleurs délais.
+Visite de contrôle préventive avec ou sans action corrective.
+Intervention curative programmée.
+Contrat de maintenance
+
+Mais aussi les pièces détachées :
+
+Mannequins de manches, manches, poches & cartouches filtrantes.
+Séquenceurs, électrovannes…</strong></p>
                     <a href="#realisations" class="btn">Voir nos réalisations</a>
                     <h2>Audit - étude - conseil</h2>
                 </div>
