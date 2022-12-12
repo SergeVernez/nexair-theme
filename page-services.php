@@ -58,7 +58,7 @@ get_header();
 					while( have_rows('charte') ) : the_row();  ?>
 						<div>
 							<h3><?php the_sub_field('numero_charte') ?> <?php the_sub_field('titre_charte') ?></h3>
-							<?php the_field('texte_charte') ?>
+							<?php the_sub_field('texte_charte') ?>
 						</div>
 				<?php endwhile; ?>
 			</div>
