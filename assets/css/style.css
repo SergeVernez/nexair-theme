@@ -772,6 +772,7 @@ header form input[type=submit] {
   color: #263c59;
   letter-spacing: 5px;
   width: 100%;
+  margin-bottom: 40px;
 }
 .single-produit .contenu {
   display: flex;
