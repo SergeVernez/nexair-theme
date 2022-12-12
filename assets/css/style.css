@@ -307,6 +307,7 @@ header form input[type=submit] {
 }
 .projet.ouvert {
   left: 70px;
+  overflow: scroll;
 }
 .projet.ouvert h2 {
   margin: 20px 150px;
