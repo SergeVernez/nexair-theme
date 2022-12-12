@@ -639,9 +639,10 @@ header form input[type=submit] {
 }
 .single-realisations .contenu {
   display: flex;
+  flex-direction: column;
 }
 .single-realisations .contenu article {
-  width: 50%;
+  width: 100%;
 }
 .single-realisations .contenu article.desc > * {
   padding-bottom: 20px;

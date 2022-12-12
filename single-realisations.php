@@ -18,9 +18,6 @@ get_header();
 			</div>
 		</section>
 		<section class="contenu container">
-			<article class="desc">
-				<?php the_content() ?>
-			</article>
 			<article class="galerie">
 				<div id="unite">
 					<?php 
@@ -31,6 +28,9 @@ get_header();
 							<?php endforeach; ?>
 						<?php endif; ?>
 				</div>
+			</article>
+			<article class="desc">
+				<?php the_content() ?>
 			</article>
 		</section>
 	</main><!-- #main -->

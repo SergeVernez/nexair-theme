@@ -4,8 +4,9 @@
 	}
 	.contenu {
 		display: flex;
+		flex-direction: column;
 		article {
-			width: 50%;
+			width: 100%;
 			&.desc {
 				& > * {
 					padding-bottom: 20px;
@@ -16,7 +17,7 @@
 	.ug-gallery-wrapper > * {
 		border-radius: 15px;
 	}
-	.ug-thumbs-strip-inner > *{
+	.ug-thumbs-strip-inner > * {
 		box-shadow: 0 0 5px grey;
 	}
 }
