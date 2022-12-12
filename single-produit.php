@@ -10,30 +10,42 @@
 get_header();
 ?>
 
-	<main>
-		<section class="bg-realisation" style="background-image:url('<?php get_the_post_thumbnail_url() ?>')">
-			<div class="container">
-				<p class="arianne"><?php bcn_display() ?></p>
-				<h1><?php the_title() ?></h1>
+
+	<main class="container">
+
+	    <!----- début de section produit ----->
+
+	<section class="contenu">
+		<div class="w-50">
+			<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
+		</div>
+		<div class="w-50">
+			<h1><?php the_title() ?></h1>
+			<h2>Description</h2>
+			<?php the_content() ?>
+        </div>
+	</section>
+	<section class="contenu">
+		<div class="w-70">
+			<h2>Avantages</h2>
+			<?php the_field("avantage") ?>
+			<div class="liens">
+				<a href="<?php the_field("fiche") ?>" class="btn">fiche</a>
+				<a href="<?php echo home_url() ?>/contact" class="btn">contact</a>
 			</div>
-		</section>
-		<section class="contenu container">
-			<article class="galerie">
-				<div id="unite">
-					<?php 
-						$images = get_field('galerie');
-						if( $images ): ?>
-							<?php foreach( $images as $image ): ?>
-								<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
-							<?php endforeach; ?>
-						<?php endif; ?>
-				</div>
-			</article>
-			<article class="desc">
-				<?php the_content() ?>
-			</article>
-		</section>
+		</div>
+		<div>
+			<?php 
+				$image = get_field('image');
+				if( !empty( $image ) ): ?>
+					<img src="<?php echo esc_url($image['sizes']['large']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
+			<?php endif; ?>
+		</div>
+	</section>
+
+
 	</main><!-- #main -->
 
 <?php
+
 get_footer();
