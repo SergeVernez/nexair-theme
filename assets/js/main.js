@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
 		gallery_height: 800,
 	});
 	$(".menucontact,.btnContact").click(function () {
-		$(this).toggleClass("ouvert");
+		$(".menucontact").toggleClass("ouvert");
 		$(".projet").toggleClass("ouvert");
 	});
 });
