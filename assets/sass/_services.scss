@@ -4,6 +4,7 @@
 		color: white;
 		position: relative;
 		overflow: hidden;
+		padding: 0;
 		// margin-bottom: 60px;
 
 		img {
@@ -90,6 +91,14 @@
 		&.bleu {
 			background-color: $bleu;
 			color: white;
+			h2 {
+				color: white;
+			}
+		}
+		.accroche {
+			text-transform: uppercase;
+			font-weight: 500;
+			font-size: 40px;
 		}
 	}
 }

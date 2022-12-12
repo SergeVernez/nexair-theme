@@ -30,7 +30,7 @@ get_header();
 				</div>
             </div>
         </div>
-    </section>.
+    </section>
 	<section>
 		<div class="container">
 			<p class="accroche"><?php the_field('accroche') ?></p>
