@@ -1,4 +1,6 @@
 .single-realisations {
+	padding-bottom: 60px;
+
 	h1 {
 		text-transform: uppercase;
 		padding: 0;
@@ -24,7 +26,7 @@
 			width: 100%;
 			&.desc {
 				& > * {
-					padding-bottom: 60px;
+					padding-bottom: 20px;
 				}
 			}
 		}
