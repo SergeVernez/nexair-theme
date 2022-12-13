@@ -29,7 +29,8 @@ jQuery(document).ready(function ($) {
 		});
 	}
 
-	$(".menucontact,.btnContact").click(function () {
+	$(".menucontact,.btnContact").click(function (event) {
+		event.preventDefault();
 		$(".menucontact,.projet").toggleClass("ouvert");
 	});
 });
