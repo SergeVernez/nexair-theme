@@ -23,6 +23,7 @@ get_header();
                     <h2><?php the_field("titre_bandeau") ?></h2>
                     <?php the_field("texte_bandeau") ?>
 					<?php the_content() ?>
+					 <a href="#" class="btn">retour à l'accueil</a
 				</div>
             </div>
         </div>
