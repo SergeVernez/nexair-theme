@@ -1202,7 +1202,7 @@ header form input[type=submit] {
   }
   .home a {
     text-align: center;
-    display: flex;
+    flex-direction: column;
   }
   .bg-footer ul {
     flex-direction: column;
