@@ -6,6 +6,7 @@
 
 	nav {
 		margin-bottom: 40px;
+		width: 100%;
 	}
 
 	ul {
@@ -67,6 +68,9 @@
 	i {
 		color: white;
 		font-size: 32px;
+	}
+	.lang-item {
+		display: none;
 	}
 }
 .ligne-2 {

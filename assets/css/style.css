@@ -332,6 +332,7 @@ header form input[type=submit] {
 }
 .bg-footer nav {
   margin-bottom: 40px;
+  width: 100%;
 }
 .bg-footer ul {
   display: flex;
@@ -388,6 +389,9 @@ header form input[type=submit] {
 .bg-footer i {
   color: white;
   font-size: 32px;
+}
+.bg-footer .lang-item {
+  display: none;
 }
 
 .ligne-2 {
