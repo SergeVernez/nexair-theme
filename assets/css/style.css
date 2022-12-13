@@ -511,15 +511,16 @@ header form input[type=submit] {
 .page-id-270 .projets,
 .page-id-270 .equipe {
   display: flex;
+  align-items: start;
   gap: 30px;
 }
 .page-id-270 .projets div,
 .page-id-270 .equipe div {
-  width: 40%;
+  width: 45%;
 }
 .page-id-270 .projets img,
 .page-id-270 .equipe img {
-  width: 60%;
+  width: 55%;
   border-radius: 15px;
 }
 .page-id-270 .equipe {
