@@ -1166,7 +1166,7 @@ header form input[type=submit] {
 .home .atex .container div:first-of-type {
     width: 100%;
   }
-  .home .atex .container button {
+  .home .atex .container .btn {
     display: block;
     margin: 20px auto !important;
   }
