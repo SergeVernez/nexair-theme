@@ -22,7 +22,7 @@ get_header();
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT+CTA ----->
-                <div class="w50">
+                <!--<div class="w50">
                     <h1><?php bloginfo( 'description' ); ?></h1>
                     <h2>20 ans d’expérience...</h2>
                     <p><strong>...Basée dans le Nord de la France à Templemars</strong>,<br>Nexair vous accompagne, de
@@ -32,7 +32,12 @@ get_header();
                             terme.</strong></p>
                     <a href="#realisations" class="btn">Voir nos réalisations</a>
                     <h2>Audit - étude - conseil</h2>
-                </div>
+                </div> -->
+
+                <?php 
+                
+                ?>
+
             </div>
         </div>
     </section>
