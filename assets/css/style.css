@@ -1035,6 +1035,8 @@ header form input[type=submit] {
   }
   header .menu ul {
     flex-direction: column;
+    justify-content: center;
+    gap: 20px;
   }
   .home .activites {
     flex-direction: column;
