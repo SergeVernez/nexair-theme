@@ -1198,6 +1198,7 @@ header form input[type=submit] {
   .home .btn {
     display: flex;
     width: 250px;
+    text-align: center;
   }
   .bg-footer ul {
     flex-direction: column;
