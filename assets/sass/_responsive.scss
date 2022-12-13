@@ -32,7 +32,7 @@
 	.projet {
 		top: 100%;
 		left: 0;
-		width: 100%;
+		width: calc(100% - 20px);
 		height: calc(100% - 70px);
 		&.ouvert {
 			left: 0;
