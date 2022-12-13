@@ -250,6 +250,9 @@ header form input[type=submit] {
   font-size: 18px;
   font-weight: 600;
 }
+.menu ul li i {
+  font-size: 20px;
+}
 
 .menucontact {
   width: 70px;
