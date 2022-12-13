@@ -93,6 +93,10 @@
 			div:first-of-type {
 				width: 100%;
 			}
+			button {
+				display: block;
+				margin: 20px auto !important;
+			}
 		}
 		.savoirFaire .ligneSavoirFaire {
 			flex-direction: column;

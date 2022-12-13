@@ -293,7 +293,6 @@ header form input[type=submit] {
   font-size: 25px;
   font-weight: 900;
   color: #263c59;
-  background: whitesmoke;
 }
 .menucontact ul li a:hover {
   transform: scale(1.2, 1.2);
@@ -1166,6 +1165,10 @@ header form input[type=submit] {
   .home .atex .container div:last-of-type,
 .home .atex .container div:first-of-type {
     width: 100%;
+  }
+  .home .atex .container button {
+    display: block;
+    margin: 20px auto !important;
   }
   .home .savoirFaire .ligneSavoirFaire {
     flex-direction: column;
