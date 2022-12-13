@@ -80,6 +80,12 @@
 				width: 100%;
 			}
 		}
+		.produits .container {
+			flex-direction: column;
+			& > div {
+				width: 100%;
+			}
+		}
 	}
 	//Footer
 	.bg-footer {

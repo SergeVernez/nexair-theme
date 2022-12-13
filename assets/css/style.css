@@ -1063,6 +1063,12 @@ header form input[type=submit] {
   .home .savoirFaire .ligneSavoirFaire div {
     width: 100%;
   }
+  .home .produits .container {
+    flex-direction: column;
+  }
+  .home .produits .container > div {
+    width: 100%;
+  }
   .bg-footer ul {
     flex-direction: column;
     align-items: center;
