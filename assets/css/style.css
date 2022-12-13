@@ -1148,6 +1148,9 @@ header form input[type=submit] {
   header.container .burger {
     display: block;
   }
+  header.container .logo img {
+    margin-left: -18px;
+  }
   header.container form {
     padding: 20px;
   }
