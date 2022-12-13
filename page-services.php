@@ -32,8 +32,8 @@ get_header();
         </div>
     </section>
 	<section>
-		<div class="container">
-			<p class="accroche"><?php the_field('accroche') ?></p>
+		<div class="container accroche">
+			<p><?php the_field('accroche') ?></p>
 			<?php the_field('texte_accroche') ?>
 		</div>
 	</section>

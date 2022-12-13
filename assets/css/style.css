@@ -488,10 +488,14 @@ header form input[type=submit] {
 .page-id-270 section.bleu h2 {
   color: white;
 }
-.page-id-270 section .accroche {
+.page-id-270 section .accroche p:first-of-type {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 40px;
+}
+.page-id-270 section .accroche ul {
+  -moz-columns: 2;
+  columns: 2;
 }
 .page-id-270 section .charte > div {
   border-left: 1px solid #8bb53c;

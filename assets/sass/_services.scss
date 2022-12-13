@@ -95,10 +95,17 @@
 				color: white;
 			}
 		}
+
 		.accroche {
-			text-transform: uppercase;
-			font-weight: 500;
-			font-size: 40px;
+			p:first-of-type {
+				text-transform: uppercase;
+				font-weight: 500;
+				font-size: 40px;
+			}
+			ul {
+				-moz-columns: 2;
+				columns: 2;
+			}
 		}
 		.charte {
 			& > div {
