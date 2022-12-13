@@ -49,7 +49,7 @@
 							<p>
 								<?php the_sub_field('coordonnees_agence','option') ?>
 							</p>
-							<a href="mailto:contact@nexair.fr">contact[at]nexair.fr</a>
+							<p><a href="mailto:contact@nexair.fr">contact[at]nexair.fr</a></p>
 						</div>
     				<?php endwhile; ?>
 				</div>
