@@ -171,6 +171,9 @@ header {
   align-items: center;
   box-shadow: none;
 }
+header .burger {
+  display: none;
+}
 header form {
   display: flex;
   flex-wrap: wrap;
@@ -1130,6 +1133,9 @@ header form input[type=submit] {
     margin: 0;
     padding: 20px;
   }
+  header .burger {
+    display: block;
+  }
   header form {
     padding: 20px;
   }
@@ -1240,7 +1246,7 @@ header form input[type=submit] {
   }
   .single-realisations h1,
 .single-secteur_activite .image-fond .bg-black > div h1 {
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 2px;
   }
   h1,
@@ -1249,9 +1255,6 @@ h2 {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-  }
-  h1 {
-    font-size: 28px;
   }
   .single-produit .contenu {
     flex-direction: column-reverse;
