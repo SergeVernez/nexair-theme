@@ -82,10 +82,15 @@
 		}
 	}
 	//Footer
-	.bg-footer .ligne {
-		flex-direction: column;
-		div {
-			width: 100% !important;
+	.bg-footer {
+		ul {
+			flex-direction: column;
+		}
+		.ligne {
+			flex-direction: column;
+			div {
+				width: 100% !important;
+			}
 		}
 	}
 }

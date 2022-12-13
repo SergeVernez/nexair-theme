@@ -1063,6 +1063,9 @@ header form input[type=submit] {
   .home .savoirFaire .ligneSavoirFaire div {
     width: 100%;
   }
+  .bg-footer ul {
+    flex-direction: column;
+  }
   .bg-footer .ligne {
     flex-direction: column;
   }
