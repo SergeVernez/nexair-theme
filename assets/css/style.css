@@ -343,6 +343,7 @@ header form input[type=submit] {
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 5px solid #8bb53c;
+  height: 70%;
 }
 .bg-footer nav {
   margin-bottom: 40px;
