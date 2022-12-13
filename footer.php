@@ -56,6 +56,7 @@
 							+33 (0)3 20 35 89 54
 							<a href="#">contact[at]nexair.fr</a>
 						</p>
+						<a href="#">contact[at]nexair.fr</a>
 					</div>
 
 				</div>
