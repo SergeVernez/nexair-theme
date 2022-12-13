@@ -293,6 +293,7 @@ header form input[type=submit] {
   font-size: 25px;
   font-weight: 900;
   color: #263c59;
+  background: whitesmoke;
 }
 .menucontact ul li a:hover {
   transform: scale(1.2, 1.2);
