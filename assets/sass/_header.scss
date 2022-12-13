@@ -79,6 +79,9 @@ header {
 		text-transform: uppercase;
 
 		li {
+			&:hover a {
+				color: $vert;
+			}
 			a {
 				display: block;
 				color: #263c59;
