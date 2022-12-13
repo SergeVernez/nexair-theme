@@ -18,7 +18,6 @@ get_header();
             <div class="container">
                 <!----- début TXT ----->
                 <div class="w50">
-                    <p class="arianne"><?php bcn_display() ?></p>
                     <h1><?php the_title() ?></h1>
                     <h2><?php the_field("titre_bandeau") ?></h2>
                     <?php the_field("texte_bandeau") ?>
