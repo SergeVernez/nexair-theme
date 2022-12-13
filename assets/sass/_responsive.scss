@@ -55,6 +55,11 @@
 	}
 	// HOME
 	.home {
+		.bg-home .bg-black > div h1 {
+			&::first-line {
+				font-size: 40px;
+			}
+		}
 		.activites {
 			flex-direction: column;
 			.bloc-secteur {
