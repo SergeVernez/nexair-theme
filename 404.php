@@ -10,7 +10,23 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+	<main>
+
+	<section class="image-fond">
+		<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
+        <div class="bg-black">
+            <div class="container">
+                <!----- début TXT ----->
+                <div class="w50">
+                    <p class="arianne"><?php bcn_display() ?></p>
+                    <h1><?php the_title() ?></h1>
+                    <h2><?php the_field("titre_bandeau") ?></h2>
+                    <?php the_field("texte_bandeau") ?>
+					<?php the_content() ?>
+				</div>
+            </div>
+        </div>
+    </section>
 
 
 	</main><!-- #main -->
