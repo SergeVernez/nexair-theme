@@ -33,4 +33,8 @@ jQuery(document).ready(function ($) {
 		event.preventDefault();
 		$(".menucontact,.projet").toggleClass("ouvert");
 	});
+
+		$(".burger").click(function () {
+			$(".menu").toggleClass("ouvert");
+		});
 });
