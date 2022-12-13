@@ -1017,6 +1017,9 @@ header form input[type=submit] {
     border-bottom: none;
     border-left: 1px solid #000;
   }
+  .menucontact ul a {
+    font-size: 20px;
+  }
   .menucontact.ouvert {
     right: 0;
     top: 0;
