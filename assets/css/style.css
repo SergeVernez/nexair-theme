@@ -1090,7 +1090,6 @@ header form input[type=submit] {
   }
   .home .container {
     flex-direction: column;
-    width: 100%;
   }
   .home .container > .bloc-realisation {
     width: 100%;
