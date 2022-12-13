@@ -1247,6 +1247,9 @@ h2 {
     -ms-hyphens: manual;
     hyphens: manual;
   }
+  h1 {
+    font-size: 30px;
+  }
   .single-produit .contenu {
     flex-direction: column-reverse;
   }
