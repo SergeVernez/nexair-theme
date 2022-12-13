@@ -13,7 +13,7 @@ get_header();
 	<main>
 
 	<section class="image-fond">
-		<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
+		<img src="<?php echo get_template_directory_uri() ?>/assets/img/404cover" alt="">
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT ----->
@@ -22,7 +22,7 @@ get_header();
                     <h2><?php the_field("titre_bandeau") ?></h2>
                     <?php the_field("texte_bandeau") ?>
 					<?php the_content() ?>
-					 <a href="#" class="btn">retour à l'accueil</a
+					 <a href="#" class="btn">retour à l'accueil</a>
 				</div>
             </div>
         </div>
