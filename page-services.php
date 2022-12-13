@@ -41,7 +41,7 @@ get_header();
 		<div class="container equipe">
 			<div>
 				<h2><?php the_field('equipe') ?></h2>
-				<?php the_field('texte_accroche') ?>
+				<?php the_field('texte_equipe') ?>
 				<a href="#" class="btn btnContact">Nous contacter</a>
 			</div>
 			<img src="<?php the_field ('image_equipe') ?>" alt="">
