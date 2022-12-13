@@ -1026,7 +1026,8 @@ header form input[type=submit] {
     top: 70px;
   }
   .projet.ouvert h2 {
-    margin: 20px;
+    margin: 0;
+    padding: 20px;
   }
   header form {
     padding: 20px;
