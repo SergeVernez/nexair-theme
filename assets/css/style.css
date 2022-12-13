@@ -536,6 +536,7 @@ header form input[type=submit] {
 .page-id-270 .equipe img {
   width: 55%;
   border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 .page-id-270 .equipe {
   flex-direction: row-reverse;
@@ -738,6 +739,7 @@ header form input[type=submit] {
 }
 .home .atex .container img {
   border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 .home .atex .btn {
   display: inline-block;
