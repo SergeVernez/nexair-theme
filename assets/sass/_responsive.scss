@@ -69,8 +69,7 @@
 			left: -120%;
 			background-color: #fff;
 			z-index: 20;
-			&.ouvert{
-				
+			&.ouvert {
 			}
 			ul {
 				flex-direction: column;
@@ -180,10 +179,10 @@
 	}
 	h1,
 	h2 {
-		overflow-wrap: break-word;
-		-webkit-hyphens: manual;
-		-ms-hyphens: manual;
-		hyphens: manual;
+		// overflow-wrap: break-word;
+		-webkit-hyphens: auto;
+		-ms-hyphens: auto;
+		hyphens: auto;
 	}
 	// Produits
 	.single-produit .contenu {

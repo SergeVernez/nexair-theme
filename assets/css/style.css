@@ -1251,10 +1251,9 @@ header form input[type=submit] {
   }
   h1,
 h2 {
-    overflow-wrap: break-word;
-    -webkit-hyphens: manual;
-    -ms-hyphens: manual;
-    hyphens: manual;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
   }
   .single-produit .contenu {
     flex-direction: column-reverse;
