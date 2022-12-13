@@ -1196,7 +1196,8 @@ header form input[type=submit] {
     margin-top: 20px;
   }
   .home .atex .container img > .btn {
-    flex-direction: column;
+    display: flex;
+    width: 250px;
   }
   .bg-footer ul {
     flex-direction: column;
