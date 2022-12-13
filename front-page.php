@@ -58,7 +58,7 @@ get_header();
                 while ( $query->have_posts() ) :
                     $query->the_post(); ?>
 
-                     <div class="bloc-secteur" style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
+                    <div class="bloc-secteur" style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
                         <h3 class="btn"><?php the_title () ?> </h3>
                         <div class="bloc-contenu">
                             <p><?php the_field("titre_bandeau") ?></p>

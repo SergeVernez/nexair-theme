@@ -1253,6 +1253,10 @@ h2 {
   .single-produit .contenu .w-50 {
     width: 100%;
   }
+  .single-produit .contenu h1 {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
   .post-type-archive-produit .produits .container {
     flex-direction: column;
     gap: 25px;
