@@ -994,7 +994,7 @@ header form input[type=submit] {
     width: 100%;
   }
   .menucontact {
-    width: 100%;
+    width: calc(100% - 20px);
     height: 70px;
     bottom: 0;
     top: initial;
