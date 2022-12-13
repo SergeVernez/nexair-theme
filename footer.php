@@ -41,9 +41,10 @@
 					<div>
 						<h3>AGENCE AUVERGNE-RHONE-ALPES</h3>
 						<p>
-							43 Porte du Grand Lyon
-							01700 NEYRON
+							43 Porte du Grand Lyon <br />
+							01700 NEYRON <br />
 							+33 (0)3 20 35 89 54
+							<br />
 							<a href="#">contact[at]nexair.fr</a>
 						</p>
 					</div>
@@ -51,12 +52,12 @@
 					<div>
 						<h3>AGENCE BRETAGNE-NORMANDIE</h3>
 						<p>
-							99 route de Dieppe
-							76770 MALAUNAY
+							99 route de Dieppe<br />
+							76770 MALAUNAY<br />
 							+33 (0)3 20 35 89 54
+							<br />
 							<a href="#">contact[at]nexair.fr</a>
 						</p>
-						<a href="#">contact[at]nexair.fr</a>
 					</div>
 
 				</div>
