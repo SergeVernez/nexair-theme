@@ -1063,4 +1063,10 @@ header form input[type=submit] {
   .home .savoirFaire .ligneSavoirFaire div {
     width: 100%;
   }
+  .bg-footer .ligne {
+    flex-direction: column;
+  }
+  .bg-footer .ligne div {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=style.css.map */

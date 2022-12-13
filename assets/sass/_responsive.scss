@@ -81,4 +81,11 @@
 			}
 		}
 	}
+	//Footer
+	.bg-footer .ligne {
+		flex-direction: column;
+		div {
+			width: 100% !important;
+		}
+	}
 }
