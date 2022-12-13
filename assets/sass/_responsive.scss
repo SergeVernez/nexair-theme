@@ -69,7 +69,9 @@
 			left: -120%;
 			background-color: #fff;
 			z-index: 20;
+			transition: 0.25s linear all;
 			&.ouvert {
+				left: 0;
 			}
 			ul {
 				flex-direction: column;
