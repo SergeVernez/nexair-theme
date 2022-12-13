@@ -695,6 +695,7 @@ header form input[type=submit] {
 .home .realisation h2 {
   color: white;
   width: 100%;
+  font-size: inherit;
 }
 .home .realisation .container {
   display: flex;
@@ -1094,5 +1095,8 @@ header form input[type=submit] {
   }
   .bg-footer .ligne div {
     width: 100% !important;
+  }
+  h2 {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
