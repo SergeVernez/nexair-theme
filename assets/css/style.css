@@ -1010,6 +1010,20 @@ header form input[type=submit] {
     border-bottom: none;
     border-left: 1px solid #000;
   }
+  .menucontact.ouvert {
+    right: 0;
+    top: 0;
+  }
+  .projet {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 70px);
+  }
+  .projet .ouvert {
+    left: 0;
+    top: 70px;
+  }
   .home .activites {
     flex-direction: column;
   }

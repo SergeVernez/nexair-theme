@@ -24,6 +24,20 @@
 				}
 			}
 		}
+		&.ouvert {
+			right: 0;
+			top: 0;
+		}
+	}
+	.projet {
+		top: 100%;
+		left: 0;
+		width: 100%;
+		height: calc(100% - 70px);
+		.ouvert {
+			left: 0;
+			top: 70px;
+		}
 	}
 	// HOME
 	.home {
