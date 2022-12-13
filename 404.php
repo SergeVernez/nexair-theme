@@ -18,10 +18,8 @@ get_header();
             <div class="container">
                 <!----- début TXT ----->
                 <div class="w50">
-                    <h1><?php the_title() ?></h1>
-                    <h2><?php the_field("titre_bandeau") ?></h2>
-                    <?php the_field("texte_bandeau") ?>
-					<?php the_content() ?>
+                    <h1>Erreur 404</h1>
+                    <p>La page que vous cherchez à atteindre n'est pas disponible, cliquez sur le bouton ci-dessous pour retourner à l'accueil</p>
 					 <a href="#" class="btn">retour à l'accueil</a>
 				</div>
             </div>
