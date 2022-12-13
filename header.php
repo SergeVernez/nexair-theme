@@ -24,6 +24,7 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <header class="container">
+        <img src="<?php echo get_template_directory_uri() ?>/assets/img/Vector burger.svg" alt="">
         <div class="logo">
             <?php the_custom_logo() ?>
         </div>
