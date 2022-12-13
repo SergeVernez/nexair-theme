@@ -1121,6 +1121,7 @@ header form input[type=submit] {
   .single-realisations h1,
 .single-secteur_activite .image-fond .bg-black > div h1 {
     font-size: 36px;
+    letter-spacing: 2px;
   }
   h1,
 h2 {
