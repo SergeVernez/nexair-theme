@@ -34,7 +34,7 @@
 		left: 0;
 		width: 100%;
 		height: calc(100% - 70px);
-		.ouvert {
+		&.ouvert {
 			left: 0;
 			top: 70px;
 		}

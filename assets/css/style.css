@@ -1020,7 +1020,7 @@ header form input[type=submit] {
     width: 100%;
     height: calc(100% - 70px);
   }
-  .projet .ouvert {
+  .projet.ouvert {
     left: 0;
     top: 70px;
   }
