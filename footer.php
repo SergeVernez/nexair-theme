@@ -27,26 +27,37 @@
 				<hr />
 				<div class="ligne">
 					<div>
-						<h3>Siège Social</h3>
+						<h3>AGENCE HAUTS DE FRANCE</h3>
 						<p>
+							Siège Social
 							15E rue du Plouvier <br />
 							59175 - TEMPLEMARS <br />
 							+33 (0)3 20 35 89 54 <br />
-							+33 (0)3 20 35 94 03
 							<br />
 							<a href="#">contact[at]nexair.fr</a>
 						</p>
 					</div>
 
 					<div>
-						<h3>Agence de Lyon</h3>
+						<h3>AGENCE AUVERGNE-RHONE-ALPES</h3>
 						<p>
-							6 rue de Savoie <br />
-							38070 - SAINT QUENTIN FALLAVIER <br />
-							+33 (0)4 74 95 00 12 +33 <br />
-							(0)4 74 94 08 51
+							43 Porte du Grand Lyon
+							01700 NEYRON
+							+33 (0)3 20 35 89 54
+							<a href="#">contact[at]nexair.fr</a>
 						</p>
 					</div>
+
+					<div>
+						<h3>AGENCE BRETAGNE-NORMANDIE</h3>
+						<p>
+							99 route de Dieppe
+							76770 MALAUNAY
+							+33 (0)3 20 35 89 54
+							<a href="#">contact[at]nexair.fr</a>
+						</p>
+					</div>
+
 				</div>
 				<hr class="ligne" />
 				<div class="d-f">
