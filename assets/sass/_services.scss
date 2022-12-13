@@ -118,4 +118,19 @@
 			}
 		}
 	}
+	.projets,
+	.equipe {
+		display: flex;
+		gap: 30px;
+		div {
+			width: 40%;
+		}
+		img {
+			width: 60%;
+			border-radius: 15px;
+		}
+	}
+	.equipe {
+		flex-direction: row-reverse;
+	}
 }

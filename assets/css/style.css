@@ -508,6 +508,23 @@ header form input[type=submit] {
   text-align: left;
   font-size: 20px;
 }
+.page-id-270 .projets,
+.page-id-270 .equipe {
+  display: flex;
+  gap: 30px;
+}
+.page-id-270 .projets div,
+.page-id-270 .equipe div {
+  width: 40%;
+}
+.page-id-270 .projets img,
+.page-id-270 .equipe img {
+  width: 60%;
+  border-radius: 15px;
+}
+.page-id-270 .equipe {
+  flex-direction: row-reverse;
+}
 
 .home .bg-home {
   min-height: calc(100vh - 75px);

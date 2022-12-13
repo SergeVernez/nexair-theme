@@ -38,24 +38,25 @@ get_header();
 		</div>
 	</section>
 	<section class="bleu">
-		<div>
+		<div class="container equipe">
+			<div>
+				<h2><?php the_field('equipe') ?></h2>
+				<?php the_field('texte_accroche') ?>
+				<a href="#" class="btn btnContact">Nous contacter</a>
+			</div>
 			<img src="<?php the_field ('image_equipe') ?>" alt="">
-		<div>
-		<div class="container">
-			<h2><?php the_field('equipe') ?></h2>
-			<?php the_field('texte_accroche') ?>
-			<a href="#" class="btn btnContact">Nous contacter</a>
 		</div>
+		
 	</section>
 	<section>
-		<div class="container">
-			<h2><?php the_field('projet') ?></h2>
-			<?php the_field('texte_projet') ?>
-			<a href="#" class="btn btnContact">Nous contacter</a>
-		</div>
-		<div>
+		<div class="container projets">
+			<div>
+				<h2><?php the_field('projet') ?></h2>
+				<?php the_field('texte_projet') ?>
+				<a href="#" class="btn btnContact">Nous contacter</a>
+			</div>
 			<img src="<?php the_field ('image_vos_projets') ?>" alt="">
-		<div>
+		</div>
 	</section>
 		<section class="bleu">
 		<div class="container">
