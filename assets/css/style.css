@@ -1031,6 +1031,7 @@ header form input[type=submit] {
     top: 0;
     left: 0;
     background-color: #fff;
+    z-index: 20;
   }
   header .menu ul {
     flex-direction: column;
