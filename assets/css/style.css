@@ -1208,6 +1208,9 @@ header form input[type=submit] {
     text-align: center;
     flex-direction: column;
   }
+  .bg-footer {
+    margin-bottom: 70px;
+  }
   .bg-footer ul {
     flex-direction: column;
     align-items: center;
@@ -1220,6 +1223,11 @@ header form input[type=submit] {
   .bg-footer .ligne div {
     width: 100% !important;
     margin: 5% 0;
+  }
+  .bg-footer .d-f {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
   h2 {
     font-size: 20px;
@@ -1238,5 +1246,11 @@ h2 {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
+  }
+  .single-produit .contenu {
+    flex-direction: column-reverse;
+  }
+  .single-produit .contenu .w-50 {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
