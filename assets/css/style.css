@@ -1139,6 +1139,7 @@ header form input[type=submit] {
     top: 0;
     left: 0;
     background-color: #fff;
+    z-index: 10;
   }
   header .burger {
     display: block;
@@ -1151,9 +1152,9 @@ header form input[type=submit] {
   }
   header .menu {
     width: 100%;
-    height: calc(100% - 70px);
+    height: calc(100% - 50px);
     position: fixed;
-    top: 70px;
+    top: 50px;
     left: -120%;
     background-color: #fff;
     z-index: 20;
