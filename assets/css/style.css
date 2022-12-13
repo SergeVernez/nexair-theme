@@ -998,6 +998,7 @@ header form input[type=submit] {
     height: 70px;
     bottom: 0;
     top: initial;
+    left: 0;
   }
   .menucontact ul {
     flex-direction: row;
