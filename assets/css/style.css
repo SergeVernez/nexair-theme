@@ -345,7 +345,7 @@ header form input[type=submit] {
   border-top: 5px solid #8bb53c;
 }
 .bg-footer nav {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   width: 100%;
 }
 .bg-footer ul {
@@ -368,7 +368,6 @@ header form input[type=submit] {
   display: block;
   margin: 5% auto;
   max-width: 20%;
-  padding-bottom: 30px;
 }
 .bg-footer hr {
   border-color: #8bb53c;
