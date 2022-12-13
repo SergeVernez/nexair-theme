@@ -1202,10 +1202,10 @@ header form input[type=submit] {
   .home .produits .container > div > div {
     width: 100%;
   }
-  .home .container {
+  .home main .container {
     flex-direction: column;
   }
-  .home .container > .bloc-realisation {
+  .home main .container > .bloc-realisation {
     width: 100%;
   }
   .home .atex .container img {
