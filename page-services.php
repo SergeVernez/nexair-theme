@@ -39,8 +39,7 @@ get_header();
 	</section>
 	<section class="bleu">
 		<div>
-			<img src="<?php the_post_thumbnail_url ('medium') ?>" alt="">
-			<img src="<?php echo get_template_directory_uri() ?>" alt="" />
+			<img src="<?php the_field ('image_equipe') ?>" alt="">
 		<div>
 		<div class="container">
 			<h2><?php the_field('equipe') ?></h2>
@@ -55,7 +54,7 @@ get_header();
 			<a href="#" class="btn btnContact">Nous contacter</a>
 		</div>
 		<div>
-			<img src="<?php the_post_thumbnail_url ('medium') ?>" alt="">
+			<img src="<?php the_field ('image_vos_projets') ?>" alt="">
 		<div>
 	</section>
 		<section class="bleu">
