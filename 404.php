@@ -13,7 +13,7 @@ get_header();
 	<main>
 
 	<section class="image-fond">
-		<img src="<?php echo get_template_directory_uri() ?>../assets/img/404cover" alt="">
+		<img src="<?php echo get_template_directory_uri() ?>../assets/img/404cover" alt="404">
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT ----->
