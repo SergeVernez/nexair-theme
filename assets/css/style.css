@@ -1253,4 +1253,15 @@ h2 {
   .single-produit .contenu .w-50 {
     width: 100%;
   }
+  .post-type-archive-produit .produits .container {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .post-type-archive-produit .produits .container > div {
+    width: 100%;
+    flex-direction: column;
+  }
+  .post-type-archive-produit .produits .container > div > div, .post-type-archive-produit .produits .container > div > img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

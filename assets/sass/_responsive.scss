@@ -186,4 +186,18 @@
 			width: 100%;
 		}
 	}
+	//Single produit
+	.post-type-archive-produit .produits .container {
+		flex-direction: column;
+		gap: 25px;
+		& > div {
+			width: 100%;
+			flex-direction: column;
+			& > div,
+			& > img {
+				
+				width: 100%;
+			}
+		}
+	}
 }
