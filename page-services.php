@@ -40,6 +40,7 @@ get_header();
 	<section class="bleu">
 		<div>
 			<img src="<?php the_post_thumbnail_url ('medium') ?>" alt="">
+			<img src="<?php echo get_template_directory_uri() ?>" alt="" />
 		<div>
 		<div class="container">
 			<h2><?php the_field('equipe') ?></h2>
