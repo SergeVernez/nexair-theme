@@ -35,17 +35,23 @@
         		</nav>
 
 				<hr />
-				<div class="ligne">
+				<?php  
+					$count = 0;
+					$agences = get_field('footer_agences','option');
+					if (is_array($agences)) {
+					$count = count($agences);
+					}
+				?>
+				<div class="ligne" style="columns:<?php echo $count ?>">
 					<?php while( have_rows('footer_agences','option') ) : the_row(); ?>
 						<div>
 							<h3><?php the_sub_field('nom_agence','option') ?></h3>
 							<p>
 								<?php the_sub_field('coordonnees_agence','option') ?>
 							</p>
+							<a href="mailto:contact@nexair.fr">contact[at]nexair.fr</a>
 						</div>
     				<?php endwhile; ?>
-					
-
 				</div>
 				<hr class="ligne" />
 				<div class="d-f">
