@@ -42,9 +42,9 @@
 					$count = count($agences);
 					}
 				?>
-				<div class="ligne" style="columns:<?php echo $count ?>">
+				<div class="ligne">
 					<?php while( have_rows('footer_agences','option') ) : the_row(); ?>
-						<div>
+						<div style="width:calc(100% / <?php echo $count ?>)">
 							<h3><?php the_sub_field('nom_agence','option') ?></h3>
 							<p>
 								<?php the_sub_field('coordonnees_agence','option') ?>

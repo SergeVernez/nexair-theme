@@ -358,6 +358,9 @@ header form input[type=submit] {
 .bg-footer hr {
   border-color: #8bb53c;
 }
+.bg-footer .ligne {
+  display: flex;
+}
 .bg-footer .ligne div {
   width: 50%;
   margin: 5%;
