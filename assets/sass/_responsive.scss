@@ -14,7 +14,7 @@
 		width: 100%;
 		height: 70px;
 		bottom: 0;
-		top: initial;
+		top: calc(100% - 70px);
 		left: 0;
 		ul {
 			flex-direction: row;

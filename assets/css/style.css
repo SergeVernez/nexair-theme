@@ -1097,7 +1097,7 @@ header form input[type=submit] {
     width: 100%;
     height: 70px;
     bottom: 0;
-    top: initial;
+    top: calc(100% - 70px);
     left: 0;
   }
   .menucontact ul {
