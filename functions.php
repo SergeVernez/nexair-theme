@@ -181,3 +181,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 // Supprimer balises automatiques CF7
 
 add_filter('wpcf7_autop_or_not', '__return_false');
+
+//ajout page options ACF
+if( function_exists('acf_add_options_page') ) {
+    
+    acf_add_options_page();
+    
+}
