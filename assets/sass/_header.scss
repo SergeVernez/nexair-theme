@@ -22,7 +22,9 @@ header {
 		}
 
 		overflow: auto;
-		input:not([type="submit"]) {
+		input:not([type="submit"]),
+		.wpcf7-spinner,
+		.wpcf7-response-output {
 			width: 100%;
 			border: none;
 			//border-bottom: 1.7px solid #263c59;//
