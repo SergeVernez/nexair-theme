@@ -165,7 +165,6 @@ ol a {
 header {
   display: flex;
   align-items: center;
-  height: 100wh;
   box-shadow: none;
 }
 header form {
@@ -1111,6 +1110,7 @@ header form input[type=submit] {
   }
   .bg-footer .ligne div {
     width: 100% !important;
+    margin: 5% 0;
   }
   h2 {
     font-size: 20px;
