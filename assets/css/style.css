@@ -1133,24 +1133,27 @@ header form input[type=submit] {
     margin: 0;
     padding: 20px;
   }
-  header {
+  header.container {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
     background-color: #fff;
     z-index: 10;
+    margin-left: 0 -2.5%;
+    width: 100%;
+    padding: 0 2.5%;
   }
-  header .burger {
+  header.container .burger {
     display: block;
   }
-  header form {
+  header.container form {
     padding: 20px;
   }
-  header form .w50 {
+  header.container form .w50 {
     width: 100%;
   }
-  header .menu {
+  header.container .menu {
     width: 100%;
     height: calc(100% - 50px);
     position: fixed;
@@ -1160,10 +1163,10 @@ header form input[type=submit] {
     z-index: 20;
     transition: 0.25s linear all;
   }
-  header .menu.ouvert {
+  header.container .menu.ouvert {
     left: 0;
   }
-  header .menu ul {
+  header.container .menu ul {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
