@@ -37,20 +37,31 @@
 		&.ouvert {
 			left: 0;
 			top: 70px;
+			h2 {
+				margin: 20px;
+			}
 		}
 	}
-	header .menu {
-		width: 100%;
-		height: 100%;
-		position: fixed;
-		top: 0;
-		left: -120%;
-		background-color: #fff;
-		z-index: 20;
-		ul {
-			flex-direction: column;
-			justify-content: center;
-			gap: 20px;
+	header {
+		form {
+			padding: 20px;
+			.w50 {
+				width: 100%;
+			}
+		}
+		.menu {
+			width: 100%;
+			height: 100%;
+			position: fixed;
+			top: 0;
+			left: -120%;
+			background-color: #fff;
+			z-index: 20;
+			ul {
+				flex-direction: column;
+				justify-content: center;
+				gap: 20px;
+			}
 		}
 	}
 	// HOME
