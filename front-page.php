@@ -23,7 +23,7 @@ get_header();
             <div class="container">
                 <!----- début TXT+CTA ----->
                 <div class="w50">
-                    <h1>ingénierie traitement de l'air</h1>
+                    <h1><?php bloginfo( 'description' ); ?></h1>
                     <h2>20 ans d’expérience...</h2>
                     <p><strong>...Basée dans le Nord de la France à Templemars</strong>,<br>Nexair vous accompagne, de
                         l’étude à la mise en oeuvre de vos installations, pour tout projet de <strong>dépoussiérage,
