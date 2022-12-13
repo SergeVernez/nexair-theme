@@ -14,7 +14,7 @@
 		<footer class="bg-footer">
 			<div class="container">
 				<img src="<?php echo get_template_directory_uri() ?>/assets/img/NEXAIR BLANC+BASE LINE.svg" alt="nexair ingenerie traitement de l'air" />
-				
+
 				<!-- <nav>
 					<ul>
 						<li><a href="#">Secteurs d'activités</a></li>
@@ -81,6 +81,15 @@
 				</div>
 				div
 			</div>
+
+			<!--- bouton retour haut de page -->
+
+			<div>
+				<button class="scroll-top">
+					<i></i>
+				</button>
+			</div>
+
 		</footer>
 <?php wp_footer(); ?>
 
