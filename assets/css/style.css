@@ -1134,6 +1134,7 @@ header form input[type=submit] {
     padding: 20px;
   }
   header.container {
+    height: 70px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
