@@ -132,6 +132,10 @@ body .is-layout-flex {
   display: block;
 }
 
+#cmplz-document {
+  max-width: none;
+}
+
 /* style des balises html */
 @font-face {
   font-family: "Canaro";
