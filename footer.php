@@ -13,7 +13,7 @@
 
 		<footer class="bg-footer">
 			<div class="container">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/img/NEXAIR BLANC+BASE LINE.svg" alt="nexair ingenerie traitement de l'air" class="logo-footer"/>
+				<a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/NEXAIR BLANC+BASE LINE.svg" alt="nexair ingenerie traitement de l'air" class="logo-footer"/></a>
 
 				<!-- <nav>
 					<ul>
