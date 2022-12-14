@@ -55,14 +55,10 @@
 				</div>
 				<hr class="ligne" />
 				<div class="d-f">
-					<div><a href="#">Mentions légales</a></div>
-					<div>
-						<img src="<?php echo get_template_directory_uri() ?>/assets/img/Linkedin.svg" alt="" class="burger">
-					</div>
-					<div><p>2022 - NEXAIR - Site réalisé par SLV</p></div>
+					<a href="#">Mentions légales</a>
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/Linkedin.svg" alt="" class="linkedin">
+					<p>2022 - NEXAIR - Site réalisé par SLV</p>
 				</div>
-				div
-			</div>
 
 			<!--- bouton retour haut de page -->
 
