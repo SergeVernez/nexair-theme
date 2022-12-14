@@ -278,7 +278,8 @@ header form input[type=submit] {
 }
 .menucontact .phone {
   width: 70%;
-  margin: 15%;
+  margin: 10px 15%;
+  transform: rotate(180deg);
 }
 .menucontact ul {
   height: 100%;
