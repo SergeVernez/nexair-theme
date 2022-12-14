@@ -56,7 +56,7 @@
 				<hr class="ligne" />
 				<div class="d-f">
 					<a href="#">Mentions légales</a>
-					<a href=""><img src="<?php echo get_template_directory_uri() ?>/assets/img/Linkedin.svg" alt="linkedin" class="linkedin"></a>
+					<a href="#"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Linkedin.svg" alt="linkedin" class="linkedin"></a>
 					<p>2022 - NEXAIR - Site réalisé par SLV</p>
 				</div>
 
