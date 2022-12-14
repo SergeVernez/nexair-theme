@@ -180,6 +180,13 @@
 			align-items: center;
 			gap: 20px;
 		}
+		.scroll-top {
+			bottom: 90px;
+			right: 20px;
+			img {
+				width: 20px;
+			}
+		}
 	}
 	h2 {
 		font-size: 20px;
