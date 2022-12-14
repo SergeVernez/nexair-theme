@@ -38,7 +38,7 @@ jQuery(document).ready(function ($) {
 		$(".menu").toggleClass("ouvert");
 	});
 
-	i$(window).scroll(function () {
+	$(window).scroll(function () {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 250) {
