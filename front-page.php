@@ -18,7 +18,7 @@ get_header();
 <main>
     <!----- début de section accueil ----->
     <section class="bg-home">
-        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home.png" alt="">
+        <img src="<?php echo get_template_directory_uri() ?>/assets/img/home.png" alt="Nexair, Ingénierie traitement de l'air">
         <div class="bg-black">
             <div class="container">
                 <!----- début TXT+CTA ----->
@@ -86,7 +86,7 @@ get_header();
                 <a class="btn" target="_blank" href="https://www.inrs.fr/risques/explosion/zonage-marquage-materiel-atex.html">en savoir plus</a>
             </div>
             <div>
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/img atex copie.png" alt="" />
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/img atex copie.png" alt="spécifications atex" />
             </div>
         </div>
     </section>
@@ -156,11 +156,6 @@ get_header();
                                 <a href="<?php the_permalink () ?>" class="btn">En savoir +</a>
                             </div>
                         </div>
-                    <!-- <a href="<?php the_permalink() ?>">
-                        <div style="background-image:url('<?php the_post_thumbnail_url('medium') ?>')">
-                            <h3 class="btn"><?php the_title() ?></h3>
-                        </div>
-                    </a> -->
             <?php endwhile;
 
             // Restore original Post Data
