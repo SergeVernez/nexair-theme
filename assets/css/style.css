@@ -1121,7 +1121,6 @@ header form input[type=submit] {
     bottom: 0;
     top: calc(100% - 70px);
     left: 0;
-    flex-direction: row;
   }
   .menucontact ul {
     flex-direction: row;
@@ -1137,6 +1136,7 @@ header form input[type=submit] {
   }
   .menucontact ul a {
     font-size: 20px;
+    flex-direction: row;
   }
   .menucontact.ouvert {
     right: 0;

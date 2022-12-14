@@ -16,7 +16,6 @@
 		bottom: 0;
 		top: calc(100% - 70px);
 		left: 0;
-		flex-direction: row;
 		ul {
 			flex-direction: row;
 			li {
@@ -31,6 +30,7 @@
 			}
 			a {
 				font-size: 20px;
+				flex-direction: row;
 			}
 		}
 		&.ouvert {
