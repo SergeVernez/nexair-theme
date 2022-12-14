@@ -55,7 +55,13 @@
 				</div>
 				<hr class="ligne" />
 				<div class="d-f">
-					<a href="#">Mentions légales</a>
+					<?php 
+						wp_nav_menu( array(
+							'container'			=> "", 
+							'theme_location'	=> "menu-footer",
+							'items_wrap' => '%3$s',
+						) ); 
+					?>
 					<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.nexair.fr%2F" target="blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Linkedin.svg" alt="linkedin" class="linkedin"></a>
 					<p>2022 - NEXAIR - Site réalisé par SLV</p>
 				</div>

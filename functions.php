@@ -50,6 +50,7 @@ function nexair_setup() {
 	register_nav_menus(
 		array(
 			'menu-header' => esc_html__( 'Menu principal', 'nexair' ),
+			'menu-footer' => esc_html__( 'Menu footer', 'nexair' ),
 		)
 	);
 
