@@ -34,7 +34,21 @@ jQuery(document).ready(function ($) {
 		$(".menucontact,.projet").toggleClass("ouvert");
 	});
 
-		$(".burger").click(function () {
-			$(".menu").toggleClass("ouvert");
+	$(".burger").click(function () {
+		$(".menu").toggleClass("ouvert");
+	});
+
+	function scroll_to_top() {
+		$(".scroll-top").click(function () {
+			$("html,body").animate({ scrollTop: 0 }, "slow");
 		});
+		$(window).scroll(function () {
+			if ($(window).scrollTop() < 250) {
+				$(".scroll-top").fadeOut();
+			} else {
+				$(".scroll-top").fadeIn();
+			}
+		});
+	}
+	scroll_to_top("#");
 });

@@ -62,7 +62,7 @@
 
 			<!--- bouton retour haut de page -->
 
-				<button class="scroll-top">
+				<button class="scroll-top" >
 					<img src="<?php echo get_template_directory_uri() ?>/assets/img/Vector retour.svg" alt="">
 				</button>
 
