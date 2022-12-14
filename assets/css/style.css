@@ -363,13 +363,13 @@ header form input[type=submit] {
   font-size: 16px;
   font-weight: 600;
 }
-.bg-footer img {
+.bg-footer .logo-footer {
   display: block;
   margin: 5% auto;
   max-width: 20%;
 }
-.bg-footer img.linkedin {
-  margin: 0;
+.bg-footer .linkedin {
+  width: 100%;
 }
 .bg-footer hr {
   border-color: #8bb53c;
