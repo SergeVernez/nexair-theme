@@ -46,7 +46,13 @@
             </ul>
         </nav>
         <div class="projet">
-            <h2>demande de rappel</h2>
+            <h2>
+                <?php if(ICL_LANGUAGE_CODE=='fr'): ?>
+                    Demande de rappel
+                <?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
+                    Callback request
+                <?php endif; ?>
+            </h2>
             <?php echo do_shortcode('[contact-form-7 id="56" title="Contact"]' ) ?>
         </div>
     </header>
