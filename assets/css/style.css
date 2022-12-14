@@ -420,6 +420,7 @@ header form input[type=submit] {
   display: none;
 }
 .bg-footer .scroll-top {
+  display: none;
   cursor: pointer;
   padding: 15px;
   background-color: #8bb53c;
