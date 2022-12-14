@@ -1182,7 +1182,7 @@ header form input[type=submit] {
     transform: scale(0.5);
   }
   header.container > label span {
-    background: #fff;
+    background: #8bb53c;
     border-radius: 10px;
     height: 7px;
     margin: 7px 0;
