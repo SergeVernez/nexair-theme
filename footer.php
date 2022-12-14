@@ -56,13 +56,15 @@
 				<hr class="ligne" />
 				<div class="d-f">
 					<?php 
-						wp_nav_menu( array(
-							'theme_location'	=> "menu-footer",
-							'container'       => false,
-							'echo'            => false,
-							'items_wrap'      => '%3$s',
-							'depth'           => 0,
-						) ); 
+						$menuFooter = array(
+							'theme_location' => 'menu-footer', // Change based on theme
+							'container' => '', // try: false
+							// 'container_class' => 'menu',
+							'echo' => '', // try: false
+							'items_wrap' => '%3$s',
+							'depth' => 0
+						);
+						echo strip_tags( wp_nav_menu( $menuFooter ), '<a>' );
 					?>
 					<a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.nexair.fr%2F" target="blank"><img src="<?php echo get_template_directory_uri() ?>/assets/img/Linkedin.svg" alt="linkedin" class="linkedin"></a>
 					<p>2022 - NEXAIR - Site réalisé par SLV</p>

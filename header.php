@@ -42,7 +42,7 @@
         <!------------------ menu formulaire de contact ---------------->
         <nav class="menucontact">
             <ul>
-                <li><a href=""> <img class="phone" src="<?php echo get_template_directory_uri() ?>/assets/img/Vector phone.svg" alt=""> contact</a></li>
+                <li><a href="#contact"> <img class="phone" src="<?php echo get_template_directory_uri() ?>/assets/img/Vector phone.svg" alt=""> contact</a></li>
             </ul>
         </nav>
         <div class="projet">
