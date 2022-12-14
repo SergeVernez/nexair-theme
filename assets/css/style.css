@@ -171,7 +171,7 @@ header {
   align-items: center;
   box-shadow: none;
 }
-header .burger {
+header label {
   display: none;
 }
 header form {
