@@ -16,6 +16,7 @@
 		bottom: 0;
 		top: calc(100% - 70px);
 		left: 0;
+		flex-direction: row;
 		ul {
 			flex-direction: row;
 			li {
@@ -41,7 +42,6 @@
 			height: 30px;
 			margin: 15% 10px;
 			transform: rotate(0);
-			
 		}
 	}
 	.projet {
