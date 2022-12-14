@@ -16,8 +16,9 @@ get_header();
 	    <!----- début de section produit ----->
 
 	<section class="contenu">
+		<p class="arianne"><?php bcn_display() ?></p>
 		<div class="w-50">
-			<p class="arianne"><?php bcn_display() ?></p>
+			
 			<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
 		</div>
 		<div class="w-50">
