@@ -260,7 +260,7 @@ header form input[type=submit] {
 .menu ul li img {
   width: 20px;
 }
-.menu ul li .lang-item img {
+.menu ul .lang-item img {
   width: 30px !important;
   height: auto !important;
 }
