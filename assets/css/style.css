@@ -1140,7 +1140,7 @@ header form input[type=submit] {
   }
   .menucontact.ouvert {
     right: 0;
-    top: 0;
+    top: 70px;
   }
   .menucontact .phone {
     width: auto;
@@ -1156,7 +1156,7 @@ header form input[type=submit] {
   }
   .projet.ouvert {
     left: 0;
-    top: 70px;
+    top: 140px;
   }
   .projet.ouvert h2 {
     margin: 0;
