@@ -406,15 +406,7 @@ header form input[type=submit] {
 .bg-footer .lang-item {
   display: none;
 }
-
-.ligne-2 {
-  display: flex;
-}
-.ligne-2 div {
-  border-width: 50%;
-  width: 50%;
-}
-.ligne-2 .scroll-top {
+.bg-footer .scroll-top {
   cursor: pointer;
   padding: 15px;
   background-color: #8bb53c;
@@ -423,8 +415,16 @@ header form input[type=submit] {
   bottom: 20px;
   right: 90px;
 }
-.ligne-2 .scroll-top img {
+.bg-footer .scroll-top img {
   width: 40px;
+}
+
+.ligne-2 {
+  display: flex;
+}
+.ligne-2 div {
+  border-width: 50%;
+  width: 50%;
 }
 
 .page-id-270 .image-fond {

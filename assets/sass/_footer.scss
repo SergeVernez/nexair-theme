@@ -73,13 +73,6 @@
 	.lang-item {
 		display: none;
 	}
-}
-.ligne-2 {
-	display: flex;
-	div {
-		border-width: 50%;
-		width: 50%;
-	}
 	.scroll-top {
 		cursor: pointer;
 		padding: 15px;
@@ -92,4 +85,12 @@
 			width: 40px;
 		}
 	}
+}
+.ligne-2 {
+	display: flex;
+	div {
+		border-width: 50%;
+		width: 50%;
+	}
+	
 }

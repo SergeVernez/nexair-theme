@@ -38,11 +38,15 @@ jQuery(document).ready(function ($) {
 		$(".menu").toggleClass("ouvert");
 	});
 
-	if ($(window).scrollTop() < 250) {
-		$(".scroll-top").fadeOut();
-	} else {
-		$(".scroll-top").fadeIn();
-	}
+	i$(window).scroll(function () {
+		var scroll = $(window).scrollTop();
+
+		if (scroll >= 250) {
+			$(".scroll-top").fadeIn();
+		} else if (scroll < 250) {
+			$(".scroll-top").fadeOut();
+		}
+	});
 	$(".scroll-top").click(function () {
 		$("html,body").animate({ scrollTop: 0 }, "slow");
 	});
