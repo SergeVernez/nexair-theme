@@ -118,9 +118,11 @@ header {
 	border-right: 1px solid #000;
 
 	.phone {
-		width: 40px;
-		bottom: 50px;
-		left: 10px;
+		width: 50px;
+		img {
+			bottom: 50px;
+			left: 10px;
+		}
 	}
 
 	ul {

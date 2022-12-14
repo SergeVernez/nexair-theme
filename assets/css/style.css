@@ -277,7 +277,9 @@ header form input[type=submit] {
   border-right: 1px solid #000;
 }
 .menucontact .phone {
-  width: 40px;
+  width: 50px;
+}
+.menucontact .phone img {
   bottom: 50px;
   left: 10px;
 }
