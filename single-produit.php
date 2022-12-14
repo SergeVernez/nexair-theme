@@ -17,10 +17,11 @@ get_header();
 
 	<section class="contenu">
 		<div class="w-50">
+			<p class="arianne"><?php bcn_display() ?></p>
 			<img src="<?php the_post_thumbnail_url(  ) ?>" alt="">
 		</div>
 		<div class="w-50">
-			<p class="arianne"><?php bcn_display() ?></p>
+			
 			<h1><?php the_title() ?></h1>
 			<h2>Description</h2>
 			<?php the_content() ?>
