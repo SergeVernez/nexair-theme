@@ -24,12 +24,7 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <header class="container">
-        <label for="check">
-            <input type="checkbox" id="check"/> 
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
+        <img src="<?php echo get_template_directory_uri() ?>/assets/img/Vector burger.svg" alt="" class="burger">
         <div class="logo">
             <?php the_custom_logo() ?>
         </div>
