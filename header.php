@@ -43,6 +43,7 @@
         <nav class="menucontact">
             <ul>
                 <li><a href="">contact</a></li>
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/Vector retour.svg" alt="">
             </ul>
         </nav>
         <div class="projet">
