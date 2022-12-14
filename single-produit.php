@@ -30,10 +30,20 @@ get_header();
 	</section>
 	<section class="contenu">
 		<div class="w-70">
-			<h2>Avantages</h2>
+			<?php if(ICL_LANGUAGE_CODE=='fr'): ?>
+                <h2>Avantages</h2>
+            <?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
+                <h2>Benefits</h2>
+            <?php endif; ?>
 			<?php the_field("avantage") ?>
 			<div class="liens">
-				<a href="<?php the_field("fiche_produit") ?>" target="_blank" class="btn">fiche</a>
+				<a href="<?php the_field("fiche_produit") ?>" target="_blank" class="btn">
+					<?php if(ICL_LANGUAGE_CODE=='fr'): ?>
+						fiche produit
+					<?php elseif(ICL_LANGUAGE_CODE=='en'): ?>
+						product description
+					<?php endif; ?>
+				</a>
 				<a href="#" class="btn btnContact">contact</a>
 			</div>
 		</div>
