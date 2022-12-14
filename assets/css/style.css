@@ -368,6 +368,9 @@ header form input[type=submit] {
   margin: 5% auto;
   max-width: 20%;
 }
+.bg-footer img.linkedin {
+  margin: 0;
+}
 .bg-footer hr {
   border-color: #8bb53c;
 }
@@ -382,6 +385,7 @@ header form input[type=submit] {
   display: flex;
   margin: 30px;
   justify-content: space-evenly;
+  align-items: center;
 }
 .bg-footer h3 {
   color: white;

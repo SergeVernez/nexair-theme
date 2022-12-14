@@ -62,11 +62,9 @@
 
 			<!--- bouton retour haut de page -->
 
-			<div>
 				<button class="scroll-top">
-					<i></i>
+					<img src="<?php echo get_template_directory_uri() ?>/assets/img/Vector retour.svg" alt="">
 				</button>
-			</div>
 
 		</footer>
 <?php wp_footer(); ?>
