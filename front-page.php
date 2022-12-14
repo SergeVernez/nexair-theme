@@ -125,7 +125,7 @@ get_header();
             // Restore original Post Data
             wp_reset_postdata();
              ?> 
-            <a href="#" class="btn">voir tous nos produits</a>
+            <a href="<?php echo home_url() ?>/produit/" class="btn">voir tous nos produits</a>
         </div>
     </section>
 
