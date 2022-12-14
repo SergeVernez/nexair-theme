@@ -171,7 +171,7 @@ header {
   align-items: center;
   box-shadow: none;
 }
-header .burger {
+header label {
   display: none;
 }
 header form {
@@ -1174,11 +1174,44 @@ header form input[type=submit] {
     width: 100%;
     padding: 0 2.5%;
   }
-  header.container .burger {
-    display: block;
+  header.container > label {
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    cursor: pointer;
+    transform: scale(0.5);
   }
-  header.container .logo img {
-    margin-left: -18px;
+  header.container > label span {
+    background: #fff;
+    border-radius: 10px;
+    height: 7px;
+    margin: 7px 0;
+    transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+  }
+  header.container span:nth-of-type(1) {
+    width: 50%;
+  }
+  header.container span:nth-of-type(2) {
+    width: 100%;
+  }
+  header.container span:nth-of-type(3) {
+    width: 75%;
+  }
+  header.container input[type=checkbox] {
+    display: none;
+  }
+  header.container input[type=checkbox]:checked ~ span:nth-of-type(1) {
+    transform-origin: bottom;
+    transform: rotatez(45deg) translate(8px, 0px);
+  }
+  header.container input[type=checkbox]:checked ~ span:nth-of-type(2) {
+    transform-origin: top;
+    transform: rotatez(-45deg);
+  }
+  header.container input[type=checkbox]:checked ~ span:nth-of-type(3) {
+    transform-origin: bottom;
+    width: 50%;
+    transform: translate(30px, -11px) rotatez(45deg);
   }
   header.container form {
     padding: 20px;

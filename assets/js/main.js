@@ -34,7 +34,7 @@ jQuery(document).ready(function ($) {
 		$(".menucontact,.projet").toggleClass("ouvert");
 	});
 
-	$(".burger").click(function () {
+	$("header > label").click(function () {
 		$(".menu").toggleClass("ouvert");
 	});
 
